@@ -1,6 +1,8 @@
 # Small labs and a later portfolio
 
-These are build prompts, not completed projects or reference solutions. DSA remains the first-phase priority. Use only the light AI/systems time already reserved within the six 90-minute study days. Split work into short steps; do not add a second study shift. Sunday is a 20-minute review, with no new lab work.
+These are build prompts, not completed projects or reference solutions. DSA remains the first-phase priority. The weekly plan has three core hours daily (21 hours), plus up to 90 flexible minutes on each weekend day (3 hours), for at most 24 hours. Weekend catch-up replaces optional work in those flexible blocks; the same time cannot be counted twice. The 45-minute weekly recap is included in Sunday's three core hours.
+
+A normal 180-minute session allocates 15 minutes to retrieval, 90 to DSA, 45 to systems/AI, 20 to an independent check, and 10 to logging. Initially, reserve **3–4 hours per week within the systems/AI allocation** for hands-on lab work; these hours are not added to it. Split work into short steps and carry unfinished work forward. Use the 30-minute busy-day version when necessary and record what remains pending.
 
 Work on one lab at a time. Start with the worker-recovery lab, then evaluation. A step may span several sessions. Use synthetic or openly licensed public data; keep employer code, customer information, credentials, and private logs out of the repository.
 
@@ -76,7 +78,7 @@ Saved synthetic model outputs can make an initial offline harness cheap and dete
 
 ## Later: turn selected work into one showcase project
 
-Begin this stage when the study routine is sustainable and the labs' acceptance criteria are met. Give project work an explicit place in a later schedule. It does not fit automatically inside the early light-study allocation. Finish one project before starting the second.
+Begin this stage when the study routine is sustainable and the labs' acceptance criteria are met. In the 18-week planning model, reserve **6 hours per week in weeks 9–16** for one showcase project, then use project blocks in weeks 17–18 for measurements, documentation, and polish. The overall forecast is 16–20 weeks; these windows can move when the evidence warrants it. Project hours come from the existing weekly budget, replacing some new-topic systems/AI work and other planned focus blocks rather than adding another shift. Preserve due reviews and at least two substantive DSA sessions per week. Finish one showcase project before considering another.
 
 | Stage | Reliable LLM gateway | Evaluated document assistant |
 | --- | --- | --- |

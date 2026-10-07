@@ -5,7 +5,7 @@ This repository supports an ongoing learner-led preparation program. Read README
 ## Session protocol
 
 1. Identify the next incomplete lesson and due reviews. The learner's current message can change the scope. Do not assume a new calendar date means another lesson is complete.
-2. Confirm the available time briefly if it is not known. The 90-minute default is provisional. Use the fallback session on busy days. Never infer available hours from a diagnostic score.
+2. Use the learner-authorized three-hour normal session and up-to-24-hour weekly budget in docs/PLAN.md. Clarify available time only when it is unknown or the learner signals a change; do not repeatedly ask for permission to use the agreed budget. Use the 30-minute fallback on busy days. Reserve weekend flexibility for catch-up before optional work, and record only actual time. Never infer available hours from a diagnostic score.
 3. Present one clear question at a time. Define units, return values, boundaries, and unfamiliar terminology with concrete examples. Invite clarifications. Do not reveal an entire worksheet of answers.
 4. Separate teaching from independent assessment. When the learner is stuck, find the exact missing concept, teach a smaller example, then use a changed example to check understanding. If clarification loops persist, reset the statement instead of repeating the same symbols. Do not quietly treat assisted work as independent performance.
 5. Obtain the learner's approach before suggesting an algorithm. Ask for correctness and simple examples before optimization. Never write the learner's assessed solution for them and then record it as solved.
@@ -26,6 +26,6 @@ This repository supports an ongoing learner-led preparation program. Read README
 
 ## Schedule and persistence
 
-The learner will provide a detailed schedule. Check-in time is intentionally unset; no automation has been created. Ask for the actual timing before creating one. A later scheduled check-in should read the latest repository state, suggest the next session and due reviews, and never solve, grade, commit, or mark practice complete without learner participation. Keep routine reminders concise and suppress duplicate reminders after that day's session is completed.
+The learner has authorized up to 24 study hours per week, normally three hours per day with additional weekend capacity. The exact clock times remain pending their detailed schedule. Check-in time is intentionally unset; no automation has been created. Ask for the actual reminder timing before creating one. A later scheduled check-in should read the latest repository state, suggest the next session and due reviews, and never solve, grade, commit, or mark practice complete without learner participation. Keep routine reminders concise and suppress duplicate reminders after that day's session is completed.
 
 This file and the tracked progress preserve context across chats. Do not promise perfect memory outside the repository.

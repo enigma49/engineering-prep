@@ -12,9 +12,9 @@ Open this repository in your coding assistant and say:
 
 > Start today's practice. Read AGENTS.md and the progress files, check due reviews, and guide me through one question at a time. Teach first where needed; keep independent checks separate. Save an evidence-based assessment and the next review dates when we finish.
 
-The initial workload is **90 minutes on six days per week**, plus a **20-minute weekly recap**. These are provisional budgets, not obligations. A 30-minute fallback keeps reviews moving on busy days. We will adjust the workload after the first week and after reviewing the learner's actual schedule.
+The agreed budget is **up to 24 hours per week**: three hours Monday–Friday and up to four and a half hours on each weekend day. Plan 21 hours of core work and reserve three weekend hours for catch-up or optional practice. The 45-minute weekly recap is inside Sunday's core time. A 30-minute fallback keeps reviews moving on busy days. Actual clock times remain pending the learner's detailed schedule.
 
-Allow a provisional **36–44 weeks** for broad preparation and one finished showcase project at this workload. This is a planning estimate, not a completion or hiring promise. See the [timeline and topic scope](docs/PLAN.md#provisional-timeline-and-topic-scope); revise it after the first two practice weeks.
+Use **18 weeks as the working target, with a 16–20-week planning range**, for broad preparation and one finished showcase project. This replaces the earlier estimate based on a smaller weekly budget. It is a planning estimate, not a completion or hiring promise. See the [timeline and topic scope](docs/PLAN.md#provisional-timeline-and-topic-scope); revise it after the first two practice weeks using actual time and independent work.
 
 ## What to open
 

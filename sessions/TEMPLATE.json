@@ -2,7 +2,7 @@
   "session_id": null,
   "date": null,
   "status": "planned",
-  "planned_minutes": 90,
+  "planned_minutes": 180,
   "actual_active_minutes": null,
   "lesson_id": null,
   "item_ids": [],

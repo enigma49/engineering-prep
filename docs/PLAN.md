@@ -6,23 +6,26 @@ This plan uses NeetCode 150 as the DSA spine and the existing preparation plan f
 
 ## Workload and session structure
 
-- **Provisional workload:** 90 minutes Monday–Saturday and 20 minutes on Sunday for recap or rest: at most 9 hours 20 minutes per week. Adjust this after the learner provides their daily schedule.
+- **Agreed weekly capacity:** up to 24 hours. Three hours each day gives 21 hours; add up to 90 minutes on Saturday and 90 minutes on Sunday to reach 24. This is a provisional distribution of the learner's chosen weekly budget; exact clock times await their detailed schedule.
+- Plan **21 hours of core work plus three hours of weekend flexibility**. The weekly 45-minute recap is included in Sunday's three core hours. Flexibility is used for catch-up first, then optional review or project extensions. Do not make essential new work depend on both the full core allocation and the same hours being available again for catch-up.
 - No check-in time is chosen and no automation is scheduled. Lesson order and completion remain separate from calendar reminders.
 - Reassess after the first week using actual time, fatigue, review backlog, and independent work. Reduce new material before extending sessions.
-- The original plan assumed about 24.5 hours per week. Its 15-week duration does not carry over to this workload.
+- The original plan assumed about 24.5 hours per week, now close to the agreed capacity. Use the 18-week target below to include consolidation and one project; do not treat the original 15-week calendar as a guaranteed outcome.
 - NeetCode completion is a learning milestone, not proof of mastery. Previously attempted problems can be checked cold; their positions in the list say nothing about current knowledge.
 
-| Full session | Minutes | Purpose |
+| Normal weekday session | Minutes | Purpose |
 |---|---:|---|
-| Due retrieval | 10 | Attempt scheduled reviews before opening notes |
-| DSA learning and practice | 45 | Understand the specification, derive, implement, test |
-| Systems or AI focus | 20 | One concept, small experiment, or [lab](LABS.md) step |
-| Independent exit check | 10 | A changed example or short fresh task; record help |
-| Log and next action | 5 | Save evidence, actual time, and the next review |
+| Due retrieval | 15 | Attempt scheduled reviews before opening notes |
+| DSA learning and practice | 90 | Understand the specification, derive, implement, test |
+| Systems or AI focus | 45 | One concept, experiment, or [lab](LABS.md) step |
+| Independent exit check | 20 | A changed example or short fresh task; record help |
+| Log and next action | 10 | Save evidence, actual time, and the next review |
 
-Initially the DSA block and exit check account for about 60% of time. The focus block alternates systems and AI. Sunday uses 10 minutes of retrieval, 5 minutes of reflection, and 5 minutes of planning; rest is also valid and is not recorded as completed practice.
+Initially the DSA block and exit check account for about 60% of a normal session. The focus block alternates systems and AI. Sessions may be split across the day. Breaks and setup are not logged as active practice. On Saturday use core time for consolidation and a longer lab or project block. On Sunday use 45 core minutes for recap/checkpoint and the remaining 135 core minutes for due reviews, weak-topic repair, or the current lab/project.
 
-Stop at the time limit and log unfinished work. If due reviews exceed their budget, replace some new material with reviews; do not mark unattempted reviews successful.
+**Missed-day rule:** carry the lesson forward and use weekend flexibility before optional new work. Missing one three-hour weekday and using all three flex hours can preserve the 21-hour core plan, but actual study that week is then 21 hours, not 24. Missing more time means carrying some work into the next week. Do not manufacture completed hours or require an unplanned marathon to preserve dates.
+
+Stop at the chosen time limit and log unfinished work. If due reviews exceed their budget, replace some new material with reviews; do not mark unattempted reviews successful. The 30-minute busy-day fallback remains available. Recalculate the forecast if actual weekly time or retention differs materially from the plan.
 
 ## Language
 
@@ -32,16 +35,17 @@ The existing Python tracker is assistant-operated tooling. The learner does not 
 
 ## Provisional timeline and topic scope
 
-**Forecast: 36–44 weeks, approximately 8–10 months**, at the provisional 9 hours 20 minutes per week. Use 40 weeks as the planning midpoint. This is a capacity estimate, not a measured prediction of learning speed. The original plan budgeted 15 × 24.5 = 367.5 hours; the same hours take about 39.4 weeks at this workload. Existing knowledge and overlapping tasks may save time; review needs and project scope may add time. Re-estimate after two completed practice weeks and at later checkpoints.
+**Working target: 18 weeks, with a 16–20-week planning range (roughly four to five months)** at up to 24 hours per week. This replaces the earlier 36–44-week estimate based on 9 hours 20 minutes per week. It is a capacity estimate, not a measured prediction of learning speed or a guaranteed upper bound. The original plan budgeted 15 × 24.5 = 367.5 hours; the same hours take about 15.3 weeks at 24 hours. Eighteen weeks provides 378 core hours and up to 432 hours including flexibility. Prior knowledge and overlap may save time; retention and project work may need more. Re-estimate after two completed practice weeks and at later checkpoints.
 
-The table gives emphasis windows within a 40-week model. Topics overlap, and demonstrated readiness can move them earlier or later. The first 14 sessions below remain the concrete starting plan. Interview practice begins in small doses earlier; the final stage does not impose a waiting period before applications.
+The table gives emphasis windows within an 18-week model. Topics overlap, and demonstrated readiness can move them earlier or later. Weeks 19–20 are a reserve for weak topics or unfinished project work. The first 14 sessions below remain the concrete starting plan with the expanded time budget. Interview practice begins earlier in small doses; applications can begin when relevant readiness checks pass.
 
 | Approximate weeks | Main emphasis | Evidence we want |
 | --- | --- | --- |
-| 1–4 | Requirements, correct straightforward solutions, arrays, maps/sets, frequency counting, boundaries, and window reasoning. Small job-lifecycle and RAG diagnosis lessons alongside. | Correct explanations and implementations on covered tasks, including changed examples and duplicates; identify which prior NeetCode work is retained. |
-| 5–16 | Two pointers, sliding windows, stacks, binary search, linked lists, recursion, trees, and heaps. OS/concurrency, networking, databases. Build the worker-recovery lab, then the evaluation lab. | Increasingly independent easy/medium attempts, delayed recall, and reproducible demonstrations of worker ownership and evaluation calculations. |
-| 17–28 | Graphs, backtracking, tries, intervals, greedy methods, dynamic programming, and remaining NeetCode categories. Distributed systems, general design, applied AI, and capacity estimation. Begin one integrated project when the labs are ready. | Broad DSA coverage plus fresh mixed problems, complete design discussions, and a working project slice with tests and measurements. |
-| 29–40, with buffer to 44 | Finish or revisit uncovered/weak topics; mixed coding and design mocks; finish the project; practice project explanations, ownership stories, and target-role interviews. | Repeatable independent performance and one runnable, tested, measured, explainable showcase project. |
+| 1–2 | Requirements, correct straightforward solutions, JavaScript arrays/maps/sets, frequency counting, boundaries, and window reasoning. Job lifecycle and RAG diagnosis alongside. | Correct explanations and implementations on covered tasks, changed examples and duplicates; identify which prior NeetCode work is retained. |
+| 3–7 | Two pointers, sliding windows, stacks, binary search, linked lists, recursion, trees, and heaps. OS/concurrency, networking, databases. Build the worker-recovery lab, then the evaluation lab. | Increasingly independent easy/medium attempts, delayed recall, and reproducible lab failure tests and metric calculations. |
+| 8–12 | Graphs, backtracking, tries, intervals, greedy methods, dynamic programming, and remaining NeetCode categories. Distributed systems, general design, applied AI, capacity estimation. Begin one integrated project when the labs are ready. | Broader DSA coverage, fresh mixed attempts, complete design discussions, and a working project slice with tests. |
+| 13–16 | Complete or repair the NeetCode pass, practice mixed unseen problems and design follow-ups, and finish and measure the project. | Retained skills across patterns, defensible design tradeoffs, and a runnable project with reproducible measurements. |
+| 17–18, with reserve through 20 | Targeted mocks, uncovered/weak-topic repair, project polish, project explanations, behavioral stories, and role-specific preparation. | Repeatable independent performance and one finished, explainable showcase project; explicit remaining gaps. |
 
 Finishing the selected NeetCode pass remains a goal across these stages. These dates do not guarantee all 150 problems are independently mastered. Do not sacrifice retention or silently mark a difficult problem complete to keep the calendar.
 
@@ -52,32 +56,32 @@ Topic coverage beyond DSA:
 - **Applied AI:** tokens and context, embeddings, attention/KV-cache intuition, structured outputs, streaming, tool calls, chunking, dense/sparse/hybrid retrieval, reranking, source freshness, retrieval and answer evaluation, held-out cases, grounding, abstention, cost/latency, provider routing, bounded workflows, and access/security failure cases. Introduce basic sampling, leakage, and train/validation/test concepts through evaluation. Fine-tuning and GPU serving start at a conceptual level; deep model training or research requires a separate later track.
 - **Interview communication:** deriving an approach aloud, explaining tradeoffs, following failures through a design, project deep dives, and accurate stories about ownership, incidents, decisions, collaboration, and impact. Use actual experience; never invent metrics.
 
-Later project work receives **3–4 hours of the existing weekly budget**, replacing some new-topic time rather than adding an extra shift. Preserve at least two substantive coding sessions and due reviews. Target **one polished project plus the two focused labs**. Choose an evaluated document assistant or a reliable LLM gateway, then finish it before considering a second showcase project. See [LABS.md](LABS.md) for acceptance criteria.
+Initially reserve **3–4 hours per week for hands-on labs within the systems/AI allocation**. Once the labs are ready, allocate **six core hours weekly to the showcase project in weeks 9–16**, replacing some new-topic time; reserve about four hours weekly for project polish in weeks 17–18. These hours are inside the 21 core hours, not additions to the 24-hour ceiling or promises to spend catch-up time twice. Keep at least two substantive coding sessions and due reviews in every project-heavy week. Target **one polished project plus two focused labs**. Choose an evaluated document assistant or a reliable LLM gateway, then finish it before considering a second showcase project. See [LABS.md](LABS.md) for acceptance criteria.
 
 Expected outcome is stronger independent problem solving and practical AI/backend engineering evidence. Unseen-medium performance must be demonstrated on multiple mixed tasks; selected hard problems are a stretch goal. A completed calendar, problem count, or predicted `/10` rating is not evidence of top-company readiness. Use the [assessment rules](ASSESSMENT.md) and appropriately scoped mocks to make that decision.
 
 ## First two practice weeks: 14 planned sessions
 
-These are relative slots, not dated claims. D07 and D14 are the Sunday slots in a Monday-start template. If starting midweek, move the next recap to the actual Sunday and keep the full lessons in order. A missed lesson stays pending.
+These are relative slots, not dated claims. D07 and D14 are the Sunday slots in a Monday-start template, including 45 minutes of recap within that day's core budget and remaining time for consolidation or lab work. If starting midweek, move the next recap to the actual Sunday and keep the full lessons in order. Saturday and Sunday each have up to 90 additional flex minutes. A missed lesson stays pending.
 
-Choose one named NeetCode problem per full session when time allows. If it was previously completed, attempt it cold before deciding whether it needs teaching. The exit check follows the independent/assisted rules in [ASSESSMENT.md](ASSESSMENT.md).
+Choose one main NeetCode problem or foundation exercise per session initially. If time remains after a correct explanation, implementation, and tests, use a changed example or a second appropriately sized problem. Do not force a daily problem quota. Previously completed problems get a cold attempt before teaching. The exit check follows the independent/assisted rules in [ASSESSMENT.md](ASSESSMENT.md).
 
 | Slot | DSA or recap work | Systems/AI focus | Evidence to retain |
 |---|---|---|---|
-| D01 | Guided lesson on plain-language requirements, timestamp ranges, and frequency Maps | A small job-claim example if time permits; otherwise defer | Guided notes only; new assessment scores remain null |
+| D01 | Guided lesson on plain-language requirements, timestamp ranges, frequency Maps, and tested JavaScript code | Job lifecycle and one failure trace | Guided notes and exit evidence; new assessment scores remain null |
 | D02 | Hash-map/set operations and one of Two Sum or Contains Duplicate; include duplicate inputs | Separate retrieval quality from answer quality in a document assistant | Code, tests, and one evaluation question |
 | D03 | Derive a correct straightforward solution to a small window-counting task before optimizing | State what a worker must claim atomically | A precise window rule and a trace that could falsify it |
 | D04 | Longest Substring Without Repeating Characters: derive the valid-window condition | Define relevant documents, correct answers, and an evaluation baseline | Explain why each state update preserves validity |
 | D05 | Revisit timestamp windows; optimize only if the straightforward version is correct | Examine worker crash, retry, and stale ownership | Code plus boundary and repeated-user tests |
 | D06 | One mixed, category-hidden easy/medium from covered NeetCode material; no solution preview | Build a tiny held-out evaluation table in the lab | Independent attempt, help level, and failure classification |
-| D07 | Sunday recap or rest; review the actual completed week | Adjust workload and queue weak concepts | Short weekly review; pending work remains pending |
+| D07 | 45-minute recap of the actual completed week; use remaining core time for recall and weak-topic repair | Continue the current lab and adjust workload | Weekly review; pending work remains pending |
 | D08 | Valid Palindrome or Two Sum II; justify pointer movement | Distinguish local locking from coordination across replicas | A correctness explanation before code |
 | D09 | Group Anagrams or Product of Array Except Self, chosen by the weakest cold check | Calculate and interpret one retrieval metric on tiny examples | Tests and metric numerator/denominator |
 | D10 | A fresh small variant of a covered window task; no pattern label supplied | Explain what an idempotency key does and does not guarantee | Separate derivation evidence from familiar-code recall |
 | D11 | Binary Search if earlier gates pass; otherwise repair the weakest covered pattern | Trace one AI failure from input through retrieval to answer | Explicit search/window bounds and a failing example |
 | D12 | Review one weak NeetCode problem and attempt one short changed example | Compare two system or AI designs using one measurable criterion | Delayed recall result and the reason for the comparison |
 | D13 | Cumulative mini-check on covered patterns within the normal session | Brief atomic-ownership and evaluation probes, without notes | Topic-specific independent evidence, not an overall ability score |
-| D14 | Sunday recap and checkpoint review, or rest | Choose the next learning block from demonstrated gaps | Keep, repeat, or advance each tested topic |
+| D14 | 45-minute recap/checkpoint; consolidate covered material in remaining core time | Choose the next block from demonstrated gaps; continue the lab | Keep, repeat, or advance each tested topic |
 
 Do not force an optimization when the straightforward solution is still incorrect. A failed check changes the next lesson; it does not trigger an automatic increase in workload. Untested NeetCode categories remain untested.
 
@@ -94,7 +98,7 @@ Phase boundaries are evidence gates, not promises about completion dates. The or
 
 Most Part 5 problems overlap NeetCode 150. Do not restart them as if new: check cold, repair weak ones, and use confident repeats for changed or unfamiliar variants. Additional tasks include Accounts Merge, implementing sorting, a rate limiter, and Sliding Window Median; they do not justify a second full DSA curriculum.
 
-As DSA transfer improves, shift the 45-minute main block gradually toward systems/AI labs while preserving coding retrieval and at least two substantive coding sessions per week. Keep the 90-minute ceiling. Follow [LABS.md](LABS.md) for the public project work; a problem count alone is not a portfolio deliverable.
+As DSA transfer improves, reallocate some main practice blocks to systems/AI projects using the weekly allocation above, while preserving coding retrieval and at least two substantive coding sessions per week. Keep the agreed three-hour normal session and 24-hour weekly ceiling, with the stated weekend flexibility. Follow [LABS.md](LABS.md) for public project work; a problem count alone is not a portfolio deliverable.
 
 ## Review and checkpoint cadence
 

@@ -1,6 +1,6 @@
 # Day 1: precise requirements and counting
 
-**Status: planned, not completed.** Provisional budget: 90 minutes. Start whenever the learner has time; the setup date is not a completed study day.
+**Status: planned, not completed.** Budget: 180 minutes within the 24-hour weekly plan. Start whenever the learner has time; the setup date is not a completed study day. This is a guided session, and Day 1 ratings remain unassessed.
 
 ## Outcomes
 
@@ -10,13 +10,18 @@ By the end, the learner should be able to describe a function's inputs and numer
 
 | Time | Activity |
 | --- | --- |
-| 0–10 min | Explain the task in ordinary language; identify 2–3 previously studied NeetCode problems if remembered. Do not require reconstructing all 30. |
-| 10–25 min | Guided arrays/set/map exercise: trace counts as repeated user IDs are added and removed. Explain what a set remembers and what it does not. |
-| 25–45 min | Fixed-window exercise below: manually work examples, state the inclusion condition, and implement a simple correct function. |
-| 45–55 min | Test empty input, repeated users, an event at the left boundary, and an event after the end. Explain the result before running code. |
-| 55–75 min | Systems micro-lesson: draw the lifecycle of one document job from queued to processing to completed/failed. Locate where status persists if a worker dies. |
-| 75–85 min | Independent exit check: tutor supplies a new fixed-window input and one changed requirement. Record any hints; no need for the maximum-across-all-windows problem yet. |
-| 85–90 min | Save evidence, leave Day 1 ratings unassessed, and schedule the first recall review. Later independent sessions use the daily rubric. |
+| 0–15 min | Retrieval and orientation: identify 2–3 previously studied NeetCode problems if remembered, explain their inputs and outputs, and recall relevant array/set/map operations. Do not require reconstructing all 30 or treat imperfect recall as a Day 1 grade. |
+| 15–35 min | Guided specification and count trace: distinguish timestamps from durations, state the fixed-window rule in ordinary language, and trace repeated user IDs being added to and removed from a map. Explain what a set remembers and what it does not. |
+| 35–65 min | Fixed-window exercise below: manually mark included events, explain the boundaries, and implement a simple correct function in JavaScript. Derive the implementation before discussing optimization. |
+| 65–90 min | Test empty input, repeated users, an event at the left boundary, and an event after the end. Explain expected results before running the code; repair any mismatch between the rule and implementation. |
+| 90–105 min | Guided transfer: work a changed input and a changed boundary convention. Explain which condition must change and which parts of the implementation remain valid. Do not introduce a new algorithm just to fill time. |
+| 105–150 min | Systems practice: draw the lifecycle of one document job from queued to processing to completed/failed. Locate persistent status, trace a worker crash before and after saving a result, and explain what a replacement worker would need to know. Record unresolved ownership questions for the later lab. |
+| 150–170 min | Independent exit check: tutor supplies a fresh fixed-window input and one changed requirement, followed by a short lifecycle trace if time permits. Record prompts and hints; no need for the maximum-across-all-windows problem yet. |
+| 170–180 min | Save the learner's code, examples, and actual time; leave Day 1 ratings unassessed and schedule the first recall review. Later independent sessions use the daily rubric. |
+
+This follows the normal allocation of 15 minutes retrieval, 90 minutes DSA, 45 minutes systems/AI, 20 minutes of independent checks, and 10 minutes logging. Pause the active-study clock for breaks; log actual active minutes. Unfinished work stays pending instead of extending the session automatically.
+
+The weekly budget is three core hours daily (21 hours), plus up to 90 flexible minutes on each weekend day (3 hours), for at most 24 hours. Weekend catch-up replaces optional work in those flexible blocks. The 45-minute weekly recap sits inside Sunday's three core hours; it is not an additional session. The planning target is 18 weeks, with a provisional 16–20-week range and progress checked against actual evidence.
 
 ## Fixed-window exercise
 
