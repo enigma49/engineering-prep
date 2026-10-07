@@ -1,0 +1,15 @@
+{
+  "session_id": null,
+  "date": null,
+  "status": "planned",
+  "planned_minutes": 90,
+  "actual_active_minutes": null,
+  "lesson_id": null,
+  "item_ids": [],
+  "evidence": [],
+  "ratings": [],
+  "assistance": [],
+  "review_events": [],
+  "deferred_items": [],
+  "next_action": null
+}

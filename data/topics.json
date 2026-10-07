@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dsa.requirements",
+    "title": "Inputs, outputs, units, and boundaries",
+    "domain": "dsa"
+  },
+  {
+    "id": "dsa.hashmaps",
+    "title": "Sets, maps, and frequency counts",
+    "domain": "dsa"
+  },
+  {
+    "id": "dsa.window_membership",
+    "title": "Time-window membership and invariants",
+    "domain": "dsa"
+  },
+  {
+    "id": "dsa.bruteforce",
+    "title": "Correct straightforward algorithms",
+    "domain": "dsa"
+  },
+  {
+    "id": "systems.job_lifecycle",
+    "title": "Durable job lifecycle and recovery",
+    "domain": "systems"
+  },
+  {
+    "id": "systems.ownership",
+    "title": "Atomic ownership and stale-worker writes",
+    "domain": "systems"
+  },
+  {
+    "id": "ai.rag_diagnosis",
+    "title": "Diagnosing retrieval and generation failures",
+    "domain": "ai"
+  },
+  {
+    "id": "ai.evaluation",
+    "title": "Trusted labels, metrics, and regression evaluation",
+    "domain": "ai"
+  },
+  {
+    "id": "behavioral.ownership",
+    "title": "Evidence of personal ownership and decisions",
+    "domain": "behavioral"
+  }
+]

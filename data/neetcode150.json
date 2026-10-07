@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "nc-001",
+    "number": 1,
+    "title": "Contains Duplicate",
+    "category": "Arrays & Hashing",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/duplicate-integer/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "solution_url": "https://neetcode.io/solutions/contains-duplicate"
+  },
+  {
+    "id": "nc-002",
+    "number": 2,
+    "title": "Valid Anagram",
+    "category": "Arrays & Hashing",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/is-anagram/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "solution_url": "https://neetcode.io/solutions/valid-anagram"
+  },
+  {
+    "id": "nc-003",
+    "number": 3,
+    "title": "Two Sum",
+    "category": "Arrays & Hashing",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/two-integer-sum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "solution_url": "https://neetcode.io/solutions/two-sum"
+  },
+  {
+    "id": "nc-004",
+    "number": 4,
+    "title": "Group Anagrams",
+    "category": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/anagram-groups/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "solution_url": "https://neetcode.io/solutions/group-anagrams"
+  },
+  {
+    "id": "nc-005",
+    "number": 5,
+    "title": "Top K Frequent Elements",
+    "category": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "solution_url": "https://neetcode.io/solutions/top-k-frequent-elements"
+  },
+  {
+    "id": "nc-006",
+    "number": 6,
+    "title": "Encode and Decode Strings",
+    "category": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "solution_url": "https://neetcode.io/solutions/encode-and-decode-strings"
+  },
+  {
+    "id": "nc-007",
+    "number": 7,
+    "title": "Product of Array Except Self",
+    "category": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "solution_url": "https://neetcode.io/solutions/product-of-array-except-self"
+  },
+  {
+    "id": "nc-008",
+    "number": 8,
+    "title": "Valid Sudoku",
+    "category": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/valid-sudoku/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "solution_url": "https://neetcode.io/solutions/valid-sudoku"
+  },
+  {
+    "id": "nc-009",
+    "number": 9,
+    "title": "Longest Consecutive Sequence",
+    "category": "Arrays & Hashing",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "solution_url": "https://neetcode.io/solutions/longest-consecutive-sequence"
+  },
+  {
+    "id": "nc-010",
+    "number": 10,
+    "title": "Valid Palindrome",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/is-palindrome/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "solution_url": "https://neetcode.io/solutions/valid-palindrome"
+  },
+  {
+    "id": "nc-011",
+    "number": 11,
+    "title": "Two Sum II Input Array Is Sorted",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/two-integer-sum-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "solution_url": "https://neetcode.io/solutions/two-sum-ii-input-array-is-sorted"
+  },
+  {
+    "id": "nc-012",
+    "number": 12,
+    "title": "3Sum",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/three-integer-sum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/3sum/",
+    "solution_url": "https://neetcode.io/solutions/3sum"
+  },
+  {
+    "id": "nc-013",
+    "number": 13,
+    "title": "Container With Most Water",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/max-water-container/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "solution_url": "https://neetcode.io/solutions/container-with-most-water"
+  },
+  {
+    "id": "nc-014",
+    "number": 14,
+    "title": "Trapping Rain Water",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/trapping-rain-water/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "solution_url": "https://neetcode.io/solutions/trapping-rain-water"
+  },
+  {
+    "id": "nc-015",
+    "number": 15,
+    "title": "Best Time to Buy And Sell Stock",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "solution_url": "https://neetcode.io/solutions/best-time-to-buy-and-sell-stock"
+  },
+  {
+    "id": "nc-016",
+    "number": 16,
+    "title": "Longest Substring Without Repeating Characters",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "solution_url": "https://neetcode.io/solutions/longest-substring-without-repeating-characters"
+  },
+  {
+    "id": "nc-017",
+    "number": 17,
+    "title": "Longest Repeating Character Replacement",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "solution_url": "https://neetcode.io/solutions/longest-repeating-character-replacement"
+  },
+  {
+    "id": "nc-018",
+    "number": 18,
+    "title": "Permutation In String",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/permutation-string/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/permutation-in-string/",
+    "solution_url": "https://neetcode.io/solutions/permutation-in-string"
+  },
+  {
+    "id": "nc-019",
+    "number": 19,
+    "title": "Minimum Window Substring",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "solution_url": "https://neetcode.io/solutions/minimum-window-substring"
+  },
+  {
+    "id": "nc-020",
+    "number": 20,
+    "title": "Sliding Window Maximum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "solution_url": "https://neetcode.io/solutions/sliding-window-maximum"
+  },
+  {
+    "id": "nc-021",
+    "number": 21,
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/validate-parentheses/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "solution_url": "https://neetcode.io/solutions/valid-parentheses"
+  },
+  {
+    "id": "nc-022",
+    "number": 22,
+    "title": "Min Stack",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/minimum-stack/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/min-stack/",
+    "solution_url": "https://neetcode.io/solutions/min-stack"
+  },
+  {
+    "id": "nc-023",
+    "number": 23,
+    "title": "Evaluate Reverse Polish Notation",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/evaluate-reverse-polish-notation/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "solution_url": "https://neetcode.io/solutions/evaluate-reverse-polish-notation"
+  },
+  {
+    "id": "nc-024",
+    "number": 24,
+    "title": "Daily Temperatures",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/daily-temperatures/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/daily-temperatures/",
+    "solution_url": "https://neetcode.io/solutions/daily-temperatures"
+  },
+  {
+    "id": "nc-025",
+    "number": 25,
+    "title": "Car Fleet",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/car-fleet/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/car-fleet/",
+    "solution_url": "https://neetcode.io/solutions/car-fleet"
+  },
+  {
+    "id": "nc-026",
+    "number": 26,
+    "title": "Largest Rectangle In Histogram",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/largest-rectangle-in-histogram/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "solution_url": "https://neetcode.io/solutions/largest-rectangle-in-histogram"
+  },
+  {
+    "id": "nc-027",
+    "number": 27,
+    "title": "Binary Search",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/binary-search/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/binary-search/",
+    "solution_url": "https://neetcode.io/solutions/binary-search"
+  },
+  {
+    "id": "nc-028",
+    "number": 28,
+    "title": "Search a 2D Matrix",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/search-2d-matrix/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "solution_url": "https://neetcode.io/solutions/search-a-2d-matrix"
+  },
+  {
+    "id": "nc-029",
+    "number": 29,
+    "title": "Koko Eating Bananas",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/eating-bananas/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/koko-eating-bananas/",
+    "solution_url": "https://neetcode.io/solutions/koko-eating-bananas"
+  },
+  {
+    "id": "nc-030",
+    "number": 30,
+    "title": "Find Minimum In Rotated Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/find-minimum-in-rotated-sorted-array/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "solution_url": "https://neetcode.io/solutions/find-minimum-in-rotated-sorted-array"
+  },
+  {
+    "id": "nc-031",
+    "number": 31,
+    "title": "Search In Rotated Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "solution_url": "https://neetcode.io/solutions/search-in-rotated-sorted-array"
+  },
+  {
+    "id": "nc-032",
+    "number": 32,
+    "title": "Time Based Key Value Store",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/time-based-key-value-store/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/time-based-key-value-store/",
+    "solution_url": "https://neetcode.io/solutions/time-based-key-value-store"
+  },
+  {
+    "id": "nc-033",
+    "number": 33,
+    "title": "Median of Two Sorted Arrays",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/median-of-two-sorted-arrays/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "solution_url": "https://neetcode.io/solutions/median-of-two-sorted-arrays"
+  },
+  {
+    "id": "nc-034",
+    "number": 34,
+    "title": "Reverse Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/reverse-a-linked-list/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "solution_url": "https://neetcode.io/solutions/reverse-linked-list"
+  },
+  {
+    "id": "nc-035",
+    "number": 35,
+    "title": "Merge Two Sorted Lists",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/merge-two-sorted-linked-lists/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "solution_url": "https://neetcode.io/solutions/merge-two-sorted-lists"
+  },
+  {
+    "id": "nc-036",
+    "number": 36,
+    "title": "Linked List Cycle",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/linked-list-cycle-detection/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "solution_url": "https://neetcode.io/solutions/linked-list-cycle"
+  },
+  {
+    "id": "nc-037",
+    "number": 37,
+    "title": "Reorder List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/reorder-linked-list/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "solution_url": "https://neetcode.io/solutions/reorder-list"
+  },
+  {
+    "id": "nc-038",
+    "number": 38,
+    "title": "Remove Nth Node From End of List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/remove-node-from-end-of-linked-list/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "solution_url": "https://neetcode.io/solutions/remove-nth-node-from-end-of-list"
+  },
+  {
+    "id": "nc-039",
+    "number": 39,
+    "title": "Copy List With Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/copy-linked-list-with-random-pointer/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "solution_url": "https://neetcode.io/solutions/copy-list-with-random-pointer"
+  },
+  {
+    "id": "nc-040",
+    "number": 40,
+    "title": "Add Two Numbers",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/add-two-numbers/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "solution_url": "https://neetcode.io/solutions/add-two-numbers"
+  },
+  {
+    "id": "nc-041",
+    "number": 41,
+    "title": "Find The Duplicate Number",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/find-duplicate-integer/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "solution_url": "https://neetcode.io/solutions/find-the-duplicate-number"
+  },
+  {
+    "id": "nc-042",
+    "number": 42,
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/lru-cache/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/lru-cache/",
+    "solution_url": "https://neetcode.io/solutions/lru-cache"
+  },
+  {
+    "id": "nc-043",
+    "number": 43,
+    "title": "Merge K Sorted Lists",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-linked-lists/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "solution_url": "https://neetcode.io/solutions/merge-k-sorted-lists"
+  },
+  {
+    "id": "nc-044",
+    "number": 44,
+    "title": "Reverse Nodes In K Group",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/reverse-nodes-in-k-group/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "solution_url": "https://neetcode.io/solutions/reverse-nodes-in-k-group"
+  },
+  {
+    "id": "nc-045",
+    "number": 45,
+    "title": "Invert Binary Tree",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/invert-a-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "solution_url": "https://neetcode.io/solutions/invert-binary-tree"
+  },
+  {
+    "id": "nc-046",
+    "number": 46,
+    "title": "Maximum Depth of Binary Tree",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/depth-of-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "solution_url": "https://neetcode.io/solutions/maximum-depth-of-binary-tree"
+  },
+  {
+    "id": "nc-047",
+    "number": 47,
+    "title": "Diameter of Binary Tree",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/binary-tree-diameter/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "solution_url": "https://neetcode.io/solutions/diameter-of-binary-tree"
+  },
+  {
+    "id": "nc-048",
+    "number": 48,
+    "title": "Balanced Binary Tree",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/balanced-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "solution_url": "https://neetcode.io/solutions/balanced-binary-tree"
+  },
+  {
+    "id": "nc-049",
+    "number": 49,
+    "title": "Same Tree",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/same-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "solution_url": "https://neetcode.io/solutions/same-tree"
+  },
+  {
+    "id": "nc-050",
+    "number": 50,
+    "title": "Subtree of Another Tree",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/subtree-of-a-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "solution_url": "https://neetcode.io/solutions/subtree-of-another-tree"
+  },
+  {
+    "id": "nc-051",
+    "number": 51,
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "solution_url": "https://neetcode.io/solutions/lowest-common-ancestor-of-a-binary-search-tree"
+  },
+  {
+    "id": "nc-052",
+    "number": 52,
+    "title": "Binary Tree Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/level-order-traversal-of-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "solution_url": "https://neetcode.io/solutions/binary-tree-level-order-traversal"
+  },
+  {
+    "id": "nc-053",
+    "number": 53,
+    "title": "Binary Tree Right Side View",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "solution_url": "https://neetcode.io/solutions/binary-tree-right-side-view"
+  },
+  {
+    "id": "nc-054",
+    "number": 54,
+    "title": "Count Good Nodes In Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "solution_url": "https://neetcode.io/solutions/count-good-nodes-in-binary-tree"
+  },
+  {
+    "id": "nc-055",
+    "number": 55,
+    "title": "Validate Binary Search Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/valid-binary-search-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "solution_url": "https://neetcode.io/solutions/validate-binary-search-tree"
+  },
+  {
+    "id": "nc-056",
+    "number": 56,
+    "title": "Kth Smallest Element In a Bst",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/kth-smallest-integer-in-bst/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "solution_url": "https://neetcode.io/solutions/kth-smallest-element-in-a-bst"
+  },
+  {
+    "id": "nc-057",
+    "number": 57,
+    "title": "Construct Binary Tree From Preorder And Inorder Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "solution_url": "https://neetcode.io/solutions/construct-binary-tree-from-preorder-and-inorder-traversal"
+  },
+  {
+    "id": "nc-058",
+    "number": 58,
+    "title": "Binary Tree Maximum Path Sum",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "solution_url": "https://neetcode.io/solutions/binary-tree-maximum-path-sum"
+  },
+  {
+    "id": "nc-059",
+    "number": 59,
+    "title": "Serialize And Deserialize Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "solution_url": "https://neetcode.io/solutions/serialize-and-deserialize-binary-tree"
+  },
+  {
+    "id": "nc-060",
+    "number": 60,
+    "title": "Kth Largest Element In a Stream",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/kth-largest-integer-in-a-stream/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "solution_url": "https://neetcode.io/solutions/kth-largest-element-in-a-stream"
+  },
+  {
+    "id": "nc-061",
+    "number": 61,
+    "title": "Last Stone Weight",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/last-stone-weight/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/last-stone-weight/",
+    "solution_url": "https://neetcode.io/solutions/last-stone-weight"
+  },
+  {
+    "id": "nc-062",
+    "number": 62,
+    "title": "K Closest Points to Origin",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/k-closest-points-to-origin/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "solution_url": "https://neetcode.io/solutions/k-closest-points-to-origin"
+  },
+  {
+    "id": "nc-063",
+    "number": 63,
+    "title": "Kth Largest Element In An Array",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/kth-largest-element-in-an-array/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "solution_url": "https://neetcode.io/solutions/kth-largest-element-in-an-array"
+  },
+  {
+    "id": "nc-064",
+    "number": 64,
+    "title": "Task Scheduler",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/task-scheduling/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/task-scheduler/",
+    "solution_url": "https://neetcode.io/solutions/task-scheduler"
+  },
+  {
+    "id": "nc-065",
+    "number": 65,
+    "title": "Design Twitter",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/design-twitter-feed/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/design-twitter/",
+    "solution_url": "https://neetcode.io/solutions/design-twitter"
+  },
+  {
+    "id": "nc-066",
+    "number": 66,
+    "title": "Find Median From Data Stream",
+    "category": "Heap / Priority Queue",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/find-median-in-a-data-stream/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "solution_url": "https://neetcode.io/solutions/find-median-from-data-stream"
+  },
+  {
+    "id": "nc-067",
+    "number": 67,
+    "title": "Subsets",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/subsets/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/subsets/",
+    "solution_url": "https://neetcode.io/solutions/subsets"
+  },
+  {
+    "id": "nc-068",
+    "number": 68,
+    "title": "Combination Sum",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/combination-target-sum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "solution_url": "https://neetcode.io/solutions/combination-sum"
+  },
+  {
+    "id": "nc-069",
+    "number": 69,
+    "title": "Combination Sum II",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/combination-target-sum-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "solution_url": "https://neetcode.io/solutions/combination-sum-ii"
+  },
+  {
+    "id": "nc-070",
+    "number": 70,
+    "title": "Permutations",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/permutations/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/permutations/",
+    "solution_url": "https://neetcode.io/solutions/permutations"
+  },
+  {
+    "id": "nc-071",
+    "number": 71,
+    "title": "Subsets II",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/subsets-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/subsets-ii/",
+    "solution_url": "https://neetcode.io/solutions/subsets-ii"
+  },
+  {
+    "id": "nc-072",
+    "number": 72,
+    "title": "Generate Parentheses",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/generate-parentheses/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "solution_url": "https://neetcode.io/solutions/generate-parentheses"
+  },
+  {
+    "id": "nc-073",
+    "number": 73,
+    "title": "Word Search",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/search-for-word/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/word-search/",
+    "solution_url": "https://neetcode.io/solutions/word-search"
+  },
+  {
+    "id": "nc-074",
+    "number": 74,
+    "title": "Palindrome Partitioning",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/palindrome-partitioning/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "solution_url": "https://neetcode.io/solutions/palindrome-partitioning"
+  },
+  {
+    "id": "nc-075",
+    "number": 75,
+    "title": "Letter Combinations of a Phone Number",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/combinations-of-a-phone-number/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "solution_url": "https://neetcode.io/solutions/letter-combinations-of-a-phone-number"
+  },
+  {
+    "id": "nc-076",
+    "number": 76,
+    "title": "N Queens",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/n-queens/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/n-queens/",
+    "solution_url": "https://neetcode.io/solutions/n-queens"
+  },
+  {
+    "id": "nc-077",
+    "number": 77,
+    "title": "Implement Trie Prefix Tree",
+    "category": "Tries",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/implement-prefix-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "solution_url": "https://neetcode.io/solutions/implement-trie-prefix-tree"
+  },
+  {
+    "id": "nc-078",
+    "number": 78,
+    "title": "Design Add And Search Words Data Structure",
+    "category": "Tries",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/design-word-search-data-structure/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+    "solution_url": "https://neetcode.io/solutions/design-add-and-search-words-data-structure"
+  },
+  {
+    "id": "nc-079",
+    "number": 79,
+    "title": "Word Search II",
+    "category": "Tries",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/search-for-word-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "solution_url": "https://neetcode.io/solutions/word-search-ii"
+  },
+  {
+    "id": "nc-080",
+    "number": 80,
+    "title": "Number of Islands",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/count-number-of-islands/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "solution_url": "https://neetcode.io/solutions/number-of-islands"
+  },
+  {
+    "id": "nc-081",
+    "number": 81,
+    "title": "Max Area of Island",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/max-area-of-island/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/max-area-of-island/",
+    "solution_url": "https://neetcode.io/solutions/max-area-of-island"
+  },
+  {
+    "id": "nc-082",
+    "number": 82,
+    "title": "Clone Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/clone-graph/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "solution_url": "https://neetcode.io/solutions/clone-graph"
+  },
+  {
+    "id": "nc-083",
+    "number": 83,
+    "title": "Walls And Gates",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/islands-and-treasure/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/walls-and-gates/",
+    "solution_url": "https://neetcode.io/solutions/walls-and-gates"
+  },
+  {
+    "id": "nc-084",
+    "number": 84,
+    "title": "Rotting Oranges",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/rotting-fruit/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "solution_url": "https://neetcode.io/solutions/rotting-oranges"
+  },
+  {
+    "id": "nc-085",
+    "number": 85,
+    "title": "Pacific Atlantic Water Flow",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/pacific-atlantic-water-flow/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "solution_url": "https://neetcode.io/solutions/pacific-atlantic-water-flow"
+  },
+  {
+    "id": "nc-086",
+    "number": 86,
+    "title": "Surrounded Regions",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/surrounded-regions/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/surrounded-regions/",
+    "solution_url": "https://neetcode.io/solutions/surrounded-regions"
+  },
+  {
+    "id": "nc-087",
+    "number": 87,
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/course-schedule/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "solution_url": "https://neetcode.io/solutions/course-schedule"
+  },
+  {
+    "id": "nc-088",
+    "number": 88,
+    "title": "Course Schedule II",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/course-schedule-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/course-schedule-ii/",
+    "solution_url": "https://neetcode.io/solutions/course-schedule-ii"
+  },
+  {
+    "id": "nc-089",
+    "number": 89,
+    "title": "Graph Valid Tree",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/valid-tree/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/graph-valid-tree/",
+    "solution_url": "https://neetcode.io/solutions/graph-valid-tree"
+  },
+  {
+    "id": "nc-090",
+    "number": 90,
+    "title": "Number of Connected Components In An Undirected Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/count-connected-components/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "solution_url": "https://neetcode.io/solutions/number-of-connected-components-in-an-undirected-graph"
+  },
+  {
+    "id": "nc-091",
+    "number": 91,
+    "title": "Redundant Connection",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/redundant-connection/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/redundant-connection/",
+    "solution_url": "https://neetcode.io/solutions/redundant-connection"
+  },
+  {
+    "id": "nc-092",
+    "number": 92,
+    "title": "Word Ladder",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/word-ladder/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/word-ladder/",
+    "solution_url": "https://neetcode.io/solutions/word-ladder"
+  },
+  {
+    "id": "nc-093",
+    "number": 93,
+    "title": "Network Delay Time",
+    "category": "Advanced Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/network-delay-time/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/network-delay-time/",
+    "solution_url": "https://neetcode.io/solutions/network-delay-time"
+  },
+  {
+    "id": "nc-094",
+    "number": 94,
+    "title": "Reconstruct Itinerary",
+    "category": "Advanced Graphs",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/reconstruct-flight-path/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+    "solution_url": "https://neetcode.io/solutions/reconstruct-itinerary"
+  },
+  {
+    "id": "nc-095",
+    "number": 95,
+    "title": "Min Cost to Connect All Points",
+    "category": "Advanced Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/min-cost-to-connect-points/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+    "solution_url": "https://neetcode.io/solutions/min-cost-to-connect-all-points"
+  },
+  {
+    "id": "nc-096",
+    "number": 96,
+    "title": "Swim In Rising Water",
+    "category": "Advanced Graphs",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/swim-in-rising-water/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/swim-in-rising-water/",
+    "solution_url": "https://neetcode.io/solutions/swim-in-rising-water"
+  },
+  {
+    "id": "nc-097",
+    "number": 97,
+    "title": "Alien Dictionary",
+    "category": "Advanced Graphs",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/foreign-dictionary/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/alien-dictionary/",
+    "solution_url": "https://neetcode.io/solutions/alien-dictionary"
+  },
+  {
+    "id": "nc-098",
+    "number": 98,
+    "title": "Cheapest Flights Within K Stops",
+    "category": "Advanced Graphs",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/cheapest-flight-path/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "solution_url": "https://neetcode.io/solutions/cheapest-flights-within-k-stops"
+  },
+  {
+    "id": "nc-099",
+    "number": 99,
+    "title": "Climbing Stairs",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/climbing-stairs/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "solution_url": "https://neetcode.io/solutions/climbing-stairs"
+  },
+  {
+    "id": "nc-100",
+    "number": 100,
+    "title": "Min Cost Climbing Stairs",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+    "solution_url": "https://neetcode.io/solutions/min-cost-climbing-stairs"
+  },
+  {
+    "id": "nc-101",
+    "number": 101,
+    "title": "House Robber",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/house-robber/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "solution_url": "https://neetcode.io/solutions/house-robber"
+  },
+  {
+    "id": "nc-102",
+    "number": 102,
+    "title": "House Robber II",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/house-robber-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "solution_url": "https://neetcode.io/solutions/house-robber-ii"
+  },
+  {
+    "id": "nc-103",
+    "number": 103,
+    "title": "Longest Palindromic Substring",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/longest-palindromic-substring/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "solution_url": "https://neetcode.io/solutions/longest-palindromic-substring"
+  },
+  {
+    "id": "nc-104",
+    "number": 104,
+    "title": "Palindromic Substrings",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/palindromic-substrings/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/palindromic-substrings/",
+    "solution_url": "https://neetcode.io/solutions/palindromic-substrings"
+  },
+  {
+    "id": "nc-105",
+    "number": 105,
+    "title": "Decode Ways",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/decode-ways/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "solution_url": "https://neetcode.io/solutions/decode-ways"
+  },
+  {
+    "id": "nc-106",
+    "number": 106,
+    "title": "Coin Change",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/coin-change/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "solution_url": "https://neetcode.io/solutions/coin-change"
+  },
+  {
+    "id": "nc-107",
+    "number": 107,
+    "title": "Maximum Product Subarray",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/",
+    "solution_url": "https://neetcode.io/solutions/maximum-product-subarray"
+  },
+  {
+    "id": "nc-108",
+    "number": 108,
+    "title": "Word Break",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/word-break/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/word-break/",
+    "solution_url": "https://neetcode.io/solutions/word-break"
+  },
+  {
+    "id": "nc-109",
+    "number": 109,
+    "title": "Longest Increasing Subsequence",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "solution_url": "https://neetcode.io/solutions/longest-increasing-subsequence"
+  },
+  {
+    "id": "nc-110",
+    "number": 110,
+    "title": "Partition Equal Subset Sum",
+    "category": "1-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/partition-equal-subset-sum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "solution_url": "https://neetcode.io/solutions/partition-equal-subset-sum"
+  },
+  {
+    "id": "nc-111",
+    "number": 111,
+    "title": "Unique Paths",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/count-paths/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "solution_url": "https://neetcode.io/solutions/unique-paths"
+  },
+  {
+    "id": "nc-112",
+    "number": 112,
+    "title": "Longest Common Subsequence",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "solution_url": "https://neetcode.io/solutions/longest-common-subsequence"
+  },
+  {
+    "id": "nc-113",
+    "number": 113,
+    "title": "Best Time to Buy And Sell Stock With Cooldown",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto-with-cooldown/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    "solution_url": "https://neetcode.io/solutions/best-time-to-buy-and-sell-stock-with-cooldown"
+  },
+  {
+    "id": "nc-114",
+    "number": 114,
+    "title": "Coin Change II",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/coin-change-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/coin-change-ii/",
+    "solution_url": "https://neetcode.io/solutions/coin-change-ii"
+  },
+  {
+    "id": "nc-115",
+    "number": 115,
+    "title": "Target Sum",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/target-sum/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/target-sum/",
+    "solution_url": "https://neetcode.io/solutions/target-sum"
+  },
+  {
+    "id": "nc-116",
+    "number": 116,
+    "title": "Interleaving String",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/interleaving-string/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/interleaving-string/",
+    "solution_url": "https://neetcode.io/solutions/interleaving-string"
+  },
+  {
+    "id": "nc-117",
+    "number": 117,
+    "title": "Longest Increasing Path In a Matrix",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/longest-increasing-path-in-matrix/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+    "solution_url": "https://neetcode.io/solutions/longest-increasing-path-in-a-matrix"
+  },
+  {
+    "id": "nc-118",
+    "number": 118,
+    "title": "Distinct Subsequences",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/count-subsequences/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/distinct-subsequences/",
+    "solution_url": "https://neetcode.io/solutions/distinct-subsequences"
+  },
+  {
+    "id": "nc-119",
+    "number": 119,
+    "title": "Edit Distance",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/edit-distance/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/edit-distance/",
+    "solution_url": "https://neetcode.io/solutions/edit-distance"
+  },
+  {
+    "id": "nc-120",
+    "number": 120,
+    "title": "Burst Balloons",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/burst-balloons/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/burst-balloons/",
+    "solution_url": "https://neetcode.io/solutions/burst-balloons"
+  },
+  {
+    "id": "nc-121",
+    "number": 121,
+    "title": "Regular Expression Matching",
+    "category": "2-D Dynamic Programming",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/regular-expression-matching/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/regular-expression-matching/",
+    "solution_url": "https://neetcode.io/solutions/regular-expression-matching"
+  },
+  {
+    "id": "nc-122",
+    "number": 122,
+    "title": "Maximum Subarray",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/maximum-subarray/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "solution_url": "https://neetcode.io/solutions/maximum-subarray"
+  },
+  {
+    "id": "nc-123",
+    "number": 123,
+    "title": "Jump Game",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/jump-game/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "solution_url": "https://neetcode.io/solutions/jump-game"
+  },
+  {
+    "id": "nc-124",
+    "number": 124,
+    "title": "Jump Game II",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/jump-game-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "solution_url": "https://neetcode.io/solutions/jump-game-ii"
+  },
+  {
+    "id": "nc-125",
+    "number": 125,
+    "title": "Gas Station",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/gas-station/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/gas-station/",
+    "solution_url": "https://neetcode.io/solutions/gas-station"
+  },
+  {
+    "id": "nc-126",
+    "number": 126,
+    "title": "Hand of Straights",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/hand-of-straights/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/hand-of-straights/",
+    "solution_url": "https://neetcode.io/solutions/hand-of-straights"
+  },
+  {
+    "id": "nc-127",
+    "number": 127,
+    "title": "Merge Triplets to Form Target Triplet",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/merge-triplets-to-form-target/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/",
+    "solution_url": "https://neetcode.io/solutions/merge-triplets-to-form-target-triplet"
+  },
+  {
+    "id": "nc-128",
+    "number": 128,
+    "title": "Partition Labels",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/partition-labels/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/partition-labels/",
+    "solution_url": "https://neetcode.io/solutions/partition-labels"
+  },
+  {
+    "id": "nc-129",
+    "number": 129,
+    "title": "Valid Parenthesis String",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/valid-parenthesis-string/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "solution_url": "https://neetcode.io/solutions/valid-parenthesis-string"
+  },
+  {
+    "id": "nc-130",
+    "number": 130,
+    "title": "Insert Interval",
+    "category": "Intervals",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/insert-new-interval/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "solution_url": "https://neetcode.io/solutions/insert-interval"
+  },
+  {
+    "id": "nc-131",
+    "number": 131,
+    "title": "Merge Intervals",
+    "category": "Intervals",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/merge-intervals/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "solution_url": "https://neetcode.io/solutions/merge-intervals"
+  },
+  {
+    "id": "nc-132",
+    "number": 132,
+    "title": "Non Overlapping Intervals",
+    "category": "Intervals",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/non-overlapping-intervals/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "solution_url": "https://neetcode.io/solutions/non-overlapping-intervals"
+  },
+  {
+    "id": "nc-133",
+    "number": 133,
+    "title": "Meeting Rooms",
+    "category": "Intervals",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/meeting-schedule/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/meeting-rooms/",
+    "solution_url": "https://neetcode.io/solutions/meeting-rooms"
+  },
+  {
+    "id": "nc-134",
+    "number": 134,
+    "title": "Meeting Rooms II",
+    "category": "Intervals",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/meeting-schedule-ii/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "solution_url": "https://neetcode.io/solutions/meeting-rooms-ii"
+  },
+  {
+    "id": "nc-135",
+    "number": 135,
+    "title": "Minimum Interval to Include Each Query",
+    "category": "Intervals",
+    "difficulty": "Hard",
+    "neetcode_url": "https://neetcode.io/problems/minimum-interval-including-query/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+    "solution_url": "https://neetcode.io/solutions/minimum-interval-to-include-each-query"
+  },
+  {
+    "id": "nc-136",
+    "number": 136,
+    "title": "Rotate Image",
+    "category": "Math & Geometry",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/rotate-matrix/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "solution_url": "https://neetcode.io/solutions/rotate-image"
+  },
+  {
+    "id": "nc-137",
+    "number": 137,
+    "title": "Spiral Matrix",
+    "category": "Math & Geometry",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/spiral-matrix/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "solution_url": "https://neetcode.io/solutions/spiral-matrix"
+  },
+  {
+    "id": "nc-138",
+    "number": 138,
+    "title": "Set Matrix Zeroes",
+    "category": "Math & Geometry",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/set-zeroes-in-matrix/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "solution_url": "https://neetcode.io/solutions/set-matrix-zeroes"
+  },
+  {
+    "id": "nc-139",
+    "number": 139,
+    "title": "Happy Number",
+    "category": "Math & Geometry",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/non-cyclical-number/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/happy-number/",
+    "solution_url": "https://neetcode.io/solutions/happy-number"
+  },
+  {
+    "id": "nc-140",
+    "number": 140,
+    "title": "Plus One",
+    "category": "Math & Geometry",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/plus-one/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/plus-one/",
+    "solution_url": "https://neetcode.io/solutions/plus-one"
+  },
+  {
+    "id": "nc-141",
+    "number": 141,
+    "title": "Pow(x, n)",
+    "category": "Math & Geometry",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/pow-x-n/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/powx-n/",
+    "solution_url": "https://neetcode.io/solutions/powx-n"
+  },
+  {
+    "id": "nc-142",
+    "number": 142,
+    "title": "Multiply Strings",
+    "category": "Math & Geometry",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/multiply-strings/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/multiply-strings/",
+    "solution_url": "https://neetcode.io/solutions/multiply-strings"
+  },
+  {
+    "id": "nc-143",
+    "number": 143,
+    "title": "Detect Squares",
+    "category": "Math & Geometry",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/count-squares/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/detect-squares/",
+    "solution_url": "https://neetcode.io/solutions/detect-squares"
+  },
+  {
+    "id": "nc-144",
+    "number": 144,
+    "title": "Single Number",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/single-number/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/single-number/",
+    "solution_url": "https://neetcode.io/solutions/single-number"
+  },
+  {
+    "id": "nc-145",
+    "number": 145,
+    "title": "Number of 1 Bits",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/number-of-one-bits/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/number-of-1-bits/",
+    "solution_url": "https://neetcode.io/solutions/number-of-1-bits"
+  },
+  {
+    "id": "nc-146",
+    "number": 146,
+    "title": "Counting Bits",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/counting-bits/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "solution_url": "https://neetcode.io/solutions/counting-bits"
+  },
+  {
+    "id": "nc-147",
+    "number": 147,
+    "title": "Reverse Bits",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/reverse-bits/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/reverse-bits/",
+    "solution_url": "https://neetcode.io/solutions/reverse-bits"
+  },
+  {
+    "id": "nc-148",
+    "number": 148,
+    "title": "Missing Number",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "neetcode_url": "https://neetcode.io/problems/missing-number/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/missing-number/",
+    "solution_url": "https://neetcode.io/solutions/missing-number"
+  },
+  {
+    "id": "nc-149",
+    "number": 149,
+    "title": "Sum of Two Integers",
+    "category": "Bit Manipulation",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/sum-of-two-integers/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/sum-of-two-integers/",
+    "solution_url": "https://neetcode.io/solutions/sum-of-two-integers"
+  },
+  {
+    "id": "nc-150",
+    "number": 150,
+    "title": "Reverse Integer",
+    "category": "Bit Manipulation",
+    "difficulty": "Medium",
+    "neetcode_url": "https://neetcode.io/problems/reverse-integer/question?list=neetcode150",
+    "url": "https://leetcode.com/problems/reverse-integer/",
+    "solution_url": "https://neetcode.io/solutions/reverse-integer"
+  }
+]

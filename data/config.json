@@ -1,0 +1,30 @@
+{
+  "timezone": "Asia/Kolkata",
+  "created_on": "2026-10-07",
+  "session_minutes": 90,
+  "full_sessions_per_week": 6,
+  "weekly_recap_minutes": 20,
+  "busy_day_minutes": 30,
+  "workload_status": "provisional_pending_schedule",
+  "check_in": {
+    "status": "awaiting_user_schedule",
+    "time": null,
+    "automation_id": null
+  },
+  "next_lesson": "D01",
+  "current_phase": "foundations",
+  "prior_practice": {
+    "approximate_studied_count": 30,
+    "source": "learner self-report",
+    "identified_item_ids": [],
+    "verified_independent_count": null
+  },
+  "repository_visibility": "public",
+  "review_gaps_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ]
+}

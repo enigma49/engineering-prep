@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+private/
+source-pdfs/
+work/
+tmp/
+*.log
+*.pem
+*.key
+data/.reviews.lock
+data/.*.tmp
