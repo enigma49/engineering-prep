@@ -24,6 +24,38 @@ Initially the DSA block and exit check account for about 60% of time. The focus 
 
 Stop at the time limit and log unfinished work. If due reviews exceed their budget, replace some new material with reviews; do not mark unattempted reviews successful.
 
+## Language
+
+Use **JavaScript** for all learner DSA solutions, coding exercises, and project code, with **Node.js** for local execution. Teach `Map` and `Set`, reference versus value behavior, numeric sorting, strings, recursion, integer limits, and suitable queue/heap implementations when a task needs them. Cover promises, the event loop, cancellation, and bounded concurrency in the systems/project track. Language details support the problem being studied rather than becoming another prerequisite course.
+
+The existing Python tracker is assistant-operated tooling. The learner does not need to learn Python to follow this plan.
+
+## Provisional timeline and topic scope
+
+**Forecast: 36–44 weeks, approximately 8–10 months**, at the provisional 9 hours 20 minutes per week. Use 40 weeks as the planning midpoint. This is a capacity estimate, not a measured prediction of learning speed. The original plan budgeted 15 × 24.5 = 367.5 hours; the same hours take about 39.4 weeks at this workload. Existing knowledge and overlapping tasks may save time; review needs and project scope may add time. Re-estimate after two completed practice weeks and at later checkpoints.
+
+The table gives emphasis windows within a 40-week model. Topics overlap, and demonstrated readiness can move them earlier or later. The first 14 sessions below remain the concrete starting plan. Interview practice begins in small doses earlier; the final stage does not impose a waiting period before applications.
+
+| Approximate weeks | Main emphasis | Evidence we want |
+| --- | --- | --- |
+| 1–4 | Requirements, correct straightforward solutions, arrays, maps/sets, frequency counting, boundaries, and window reasoning. Small job-lifecycle and RAG diagnosis lessons alongside. | Correct explanations and implementations on covered tasks, including changed examples and duplicates; identify which prior NeetCode work is retained. |
+| 5–16 | Two pointers, sliding windows, stacks, binary search, linked lists, recursion, trees, and heaps. OS/concurrency, networking, databases. Build the worker-recovery lab, then the evaluation lab. | Increasingly independent easy/medium attempts, delayed recall, and reproducible demonstrations of worker ownership and evaluation calculations. |
+| 17–28 | Graphs, backtracking, tries, intervals, greedy methods, dynamic programming, and remaining NeetCode categories. Distributed systems, general design, applied AI, and capacity estimation. Begin one integrated project when the labs are ready. | Broad DSA coverage plus fresh mixed problems, complete design discussions, and a working project slice with tests and measurements. |
+| 29–40, with buffer to 44 | Finish or revisit uncovered/weak topics; mixed coding and design mocks; finish the project; practice project explanations, ownership stories, and target-role interviews. | Repeatable independent performance and one runnable, tested, measured, explainable showcase project. |
+
+Finishing the selected NeetCode pass remains a goal across these stages. These dates do not guarantee all 150 problems are independently mastered. Do not sacrifice retention or silently mark a difficult problem complete to keep the calendar.
+
+Topic coverage beyond DSA:
+
+- **CS and systems foundations:** processes/threads, concurrency and atomic operations, networking (DNS, HTTP, TCP, TLS), database indexes and transactions, isolation, connection pools, and basic API/object design.
+- **System design:** requirements, capacity estimates, data models, caches, queues, retries, idempotency, ownership/leases, replication, partitioning, consistency, backpressure, observability, and recovery. Practice concrete services such as a rate limiter, job processor, notification service, and document-processing platform.
+- **Applied AI:** tokens and context, embeddings, attention/KV-cache intuition, structured outputs, streaming, tool calls, chunking, dense/sparse/hybrid retrieval, reranking, source freshness, retrieval and answer evaluation, held-out cases, grounding, abstention, cost/latency, provider routing, bounded workflows, and access/security failure cases. Introduce basic sampling, leakage, and train/validation/test concepts through evaluation. Fine-tuning and GPU serving start at a conceptual level; deep model training or research requires a separate later track.
+- **Interview communication:** deriving an approach aloud, explaining tradeoffs, following failures through a design, project deep dives, and accurate stories about ownership, incidents, decisions, collaboration, and impact. Use actual experience; never invent metrics.
+
+Later project work receives **3–4 hours of the existing weekly budget**, replacing some new-topic time rather than adding an extra shift. Preserve at least two substantive coding sessions and due reviews. Target **one polished project plus the two focused labs**. Choose an evaluated document assistant or a reliable LLM gateway, then finish it before considering a second showcase project. See [LABS.md](LABS.md) for acceptance criteria.
+
+Expected outcome is stronger independent problem solving and practical AI/backend engineering evidence. Unseen-medium performance must be demonstrated on multiple mixed tasks; selected hard problems are a stretch goal. A completed calendar, problem count, or predicted `/10` rating is not evidence of top-company readiness. Use the [assessment rules](ASSESSMENT.md) and appropriately scoped mocks to make that decision.
+
 ## First two practice weeks: 14 planned sessions
 
 These are relative slots, not dated claims. D07 and D14 are the Sunday slots in a Monday-start template. If starting midweek, move the next recap to the actual Sunday and keep the full lessons in order. A missed lesson stays pending.

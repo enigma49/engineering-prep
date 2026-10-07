@@ -1,5 +1,7 @@
 {
   "timezone": "Asia/Kolkata",
+  "practice_language": "JavaScript",
+  "project_runtime": "Node.js",
   "created_on": "2026-10-07",
   "session_minutes": 90,
   "full_sessions_per_week": 6,

@@ -16,6 +16,7 @@ This repository supports an ongoing learner-led preparation program. Read README
 
 ## Learning priorities
 
+- Use JavaScript for DSA explanations, learner solutions, tests, and project code, with Node.js for local execution. The learner does not know Python. Teach relevant JavaScript details as they arise; do not add Python or TypeScript as a prerequisite. The assistant may maintain the existing Python progress utility without requiring the learner to study its implementation.
 - Start with requirement interpretation, arrays/maps, interval boundaries, correct straightforward solutions, and counterexamples.
 - Use NeetCode 150 as the DSA spine. Previously studied titles are unknown until the learner identifies them; import them with honest evidence and assistance rather than a fabricated score.
 - The earlier 15-week plan is a topic reference, not a fixed deadline. Map overlapping DSA to retention/transfer practice; include systems, AI, behavior, and real project time gradually.

@@ -4,6 +4,8 @@ A daily learning workspace for data structures and algorithms, system design, an
 
 **Current stage:** foundations. **Next session:** [Day 1](docs/DAY_01.md). **Daily schedule:** awaiting the learner's availability; no reminder is active.
 
+**Practice language:** JavaScript. Use Node.js for local exercises and project code. The assistant can operate the existing Python tracker; learning Python is not part of this preparation plan.
+
 ## Start a session
 
 Open this repository in your coding assistant and say:
@@ -11,6 +13,8 @@ Open this repository in your coding assistant and say:
 > Start today's practice. Read AGENTS.md and the progress files, check due reviews, and guide me through one question at a time. Teach first where needed; keep independent checks separate. Save an evidence-based assessment and the next review dates when we finish.
 
 The initial workload is **90 minutes on six days per week**, plus a **20-minute weekly recap**. These are provisional budgets, not obligations. A 30-minute fallback keeps reviews moving on busy days. We will adjust the workload after the first week and after reviewing the learner's actual schedule.
+
+Allow a provisional **36–44 weeks** for broad preparation and one finished showcase project at this workload. This is a planning estimate, not a completion or hiring promise. See the [timeline and topic scope](docs/PLAN.md#provisional-timeline-and-topic-scope); revise it after the first two practice weeks.
 
 ## What to open
 

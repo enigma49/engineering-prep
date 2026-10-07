@@ -22,13 +22,18 @@ By the end, the learner should be able to describe a function's inputs and numer
 
 Events contain an occurrence time, in seconds since logging began, and a user ID. We supply both the duration and the current time.
 
-```text
-events = [(101, "a"), (105, "b"), (108, "a"), (110, "c")]
-durationSeconds = 5
-currentTimeSeconds = 110
+```js
+const events = [
+  { timestamp: 101, user: "a" },
+  { timestamp: 105, user: "b" },
+  { timestamp: 108, user: "a" },
+  { timestamp: 110, user: "c" },
+];
+const durationSeconds = 5;
+const currentTimeSeconds = 110;
 ```
 
-Write `countDistinctUsers(events, durationSeconds, currentTimeSeconds)`.
+Write `countDistinctUsers(events, durationSeconds, currentTimeSeconds)` in JavaScript.
 
 Include an event if its time is strictly greater than `currentTimeSeconds - durationSeconds` and at most `currentTimeSeconds`. Return the number of different user IDs in that interval. Empty input returns 0. Events after the current time do not count.
 
