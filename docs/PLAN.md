@@ -29,9 +29,34 @@ Stop at the chosen time limit and log unfinished work. If due reviews exceed the
 
 ## Language
 
-Use **JavaScript** for all learner DSA solutions, coding exercises, and project code, with **Node.js** for local execution. Teach `Map` and `Set`, reference versus value behavior, numeric sorting, strings, recursion, integer limits, and suitable queue/heap implementations when a task needs them. Cover promises, the event loop, cancellation, and bounded concurrency in the systems/project track. Language details support the problem being studied rather than becoming another prerequisite course.
+Use **Python 3 for DSA**. The learner reports some basic Python knowledge and wants to build fluency through problem solving. This supersedes the earlier JavaScript choice. Prior familiarity is self-reported and will be checked through small exercises; it is not a completed Python course or an assessment score.
 
-The existing Python tracker is assistant-operated tooling. The learner does not need to learn Python to follow this plan.
+During the **first five sessions**, use up to **20 minutes of the existing 90-minute DSA block** for Python orientation when needed. Start with functions, indentation, loops, `range`, lists, dictionaries, sets, membership, `len`, and simple tests. Add iteration helpers, sorting, mutability, strings, and recursion as problems require them. Introduce `collections.Counter`, `defaultdict`, `deque`, and `heapq` at the relevant topics, after the learner understands the behavior being represented. Reduce orientation when a cold check shows fluency; do not delay all DSA work until a separate language course is finished.
+
+Use a short syntax reference during learning practice and disclose its use. Distinguish a Python API lookup from a hint that supplies an algorithm; both must be recorded accurately. Implementation mistakes still need correction, while demonstrated reasoning is assessed on its own evidence. See [ASSESSMENT.md](ASSESSMENT.md). Day 1 remains guided and ungraded. Reassess language friction and the overall pace after two weeks; the 18-week target remains provisional.
+
+Node.js remains the provisional runtime for portfolio projects. Select each project's implementation language when its build begins; switching DSA to Python does not automatically change the project stack. The existing Python progress utility remains assistant-maintained so studying its implementation is optional.
+
+## DSA topic order
+
+Follow the [NeetCode roadmap](https://neetcode.io/roadmap) shared by the learner as the default progression through NeetCode 150. The following groups reflect its branches, with one main new topic selected at a time. Earlier topics remain in the review queue. This orders the existing curriculum; it does not add another problem list or another study block.
+
+| Roadmap group | Topics |
+| --- | --- |
+| 1 | Arrays & Hashing, using Python lists, dictionaries, and sets |
+| 2 | Two Pointers and Stack |
+| 3 | Binary Search, Sliding Window, and Linked List |
+| 4 | Trees, including explicit recursion and call-stack practice |
+| 5 | Tries, Heap / Priority Queue, and Backtracking |
+| 6 | Intervals and Greedy on the heap branch; Graphs and 1-D Dynamic Programming on the backtracking branch |
+| 7 | Advanced Graphs, 2-D Dynamic Programming, and Bit Manipulation |
+| 8 | Math & Geometry |
+
+These are suggested learning connections, not universal prerequisite claims. Basic intervals need not wait for heap mastery; graph traversal need not wait for every backtracking problem; DP should build on state definitions, recurrences, and repeated subproblems. Choose a sensible order within a group based on the learner's demonstrated understanding and the actual problem's requirements.
+
+Before shifting the main topic, seek a few varied independent attempts (initially about 2–3 appropriately scoped tasks), clear explanations, and relevant edge-case tests. This is an adjustable coaching check, not proof of mastery. Continue delayed recall and unfamiliar variants after advancing. Do not require every problem, especially every hard, to be solved before starting the next topic. Preserve incomplete items for later repair.
+
+Day 1's supplied-interval exercise is a simple filtering/counting task for requirements and Python collections. It does not count as mastery of the moving/sliding-window pattern. Introduce that pattern after arrays/hashing and basic pointer reasoning are secure.
 
 ## Provisional timeline and topic scope
 
@@ -41,7 +66,7 @@ The table gives emphasis windows within an 18-week model. Topics overlap, and de
 
 | Approximate weeks | Main emphasis | Evidence we want |
 | --- | --- | --- |
-| 1–2 | Requirements, correct straightforward solutions, JavaScript arrays/maps/sets, frequency counting, boundaries, and window reasoning. Job lifecycle and RAG diagnosis alongside. | Correct explanations and implementations on covered tasks, changed examples and duplicates; identify which prior NeetCode work is retained. |
+| 1–2 | Requirements, correct straightforward solutions, Python lists/dictionaries/sets, frequency counting, boundaries, and window reasoning. Job lifecycle and RAG diagnosis alongside. | Correct explanations and implementations on covered tasks, changed examples and duplicates; identify which prior NeetCode work is retained and which Python operations need practice. |
 | 3–7 | Two pointers, sliding windows, stacks, binary search, linked lists, recursion, trees, and heaps. OS/concurrency, networking, databases. Build the worker-recovery lab, then the evaluation lab. | Increasingly independent easy/medium attempts, delayed recall, and reproducible lab failure tests and metric calculations. |
 | 8–12 | Graphs, backtracking, tries, intervals, greedy methods, dynamic programming, and remaining NeetCode categories. Distributed systems, general design, applied AI, capacity estimation. Begin one integrated project when the labs are ready. | Broader DSA coverage, fresh mixed attempts, complete design discussions, and a working project slice with tests. |
 | 13–16 | Complete or repair the NeetCode pass, practice mixed unseen problems and design follow-ups, and finish and measure the project. | Retained skills across patterns, defensible design tradeoffs, and a runnable project with reproducible measurements. |
@@ -68,17 +93,17 @@ Choose one main NeetCode problem or foundation exercise per session initially. I
 
 | Slot | DSA or recap work | Systems/AI focus | Evidence to retain |
 |---|---|---|---|
-| D01 | Guided lesson on plain-language requirements, timestamp ranges, frequency Maps, and tested JavaScript code | Job lifecycle and one failure trace | Guided notes and exit evidence; new assessment scores remain null |
-| D02 | Hash-map/set operations and one of Two Sum or Contains Duplicate; include duplicate inputs | Separate retrieval quality from answer quality in a document assistant | Code, tests, and one evaluation question |
-| D03 | Derive a correct straightforward solution to a small window-counting task before optimizing | State what a worker must claim atomically | A precise window rule and a trace that could falsify it |
-| D04 | Longest Substring Without Repeating Characters: derive the valid-window condition | Define relevant documents, correct answers, and an evaluation baseline | Explain why each state update preserves validity |
-| D05 | Revisit timestamp windows; optimize only if the straightforward version is correct | Examine worker crash, retry, and stale ownership | Code plus boundary and repeated-user tests |
-| D06 | One mixed, category-hidden easy/medium from covered NeetCode material; no solution preview | Build a tiny held-out evaluation table in the lab | Independent attempt, help level, and failure classification |
+| D01 | Guided lesson on plain-language requirements, timestamp ranges, frequency dictionaries, and tested Python code | Job lifecycle and one failure trace | Guided notes and exit evidence; new assessment scores remain null |
+| D02 | Python dictionary/set operations; Contains Duplicate or Valid Anagram, with duplicate inputs | Separate retrieval quality from answer quality in a document assistant | Code, tests, and one evaluation question |
+| D03 | Two Sum: derive a correct straightforward approach before improving it | State what a worker must claim atomically | Correctness explanation, contrasting examples, and tests |
+| D04 | Group Anagrams or Product of Array Except Self, chosen from cold-check evidence | Define relevant documents, correct answers, and an evaluation baseline | Explain the state or intermediate values that make the approach correct |
+| D05 | If arrays/hashing checks pass, begin Two Pointers with Valid Palindrome; otherwise repair the weakest covered task | Examine worker crash, retry, and stale ownership | Justified pointer movement or repaired array/hash reasoning |
+| D06 | Two Sum II if pointer reasoning is ready; use the exit check for a short category-hidden task from covered material | Build a tiny held-out evaluation table in the lab | Independent attempt, help level, and failure classification |
 | D07 | 45-minute recap of the actual completed week; use remaining core time for recall and weak-topic repair | Continue the current lab and adjust workload | Weekly review; pending work remains pending |
-| D08 | Valid Palindrome or Two Sum II; justify pointer movement | Distinguish local locking from coordination across replicas | A correctness explanation before code |
-| D09 | Group Anagrams or Product of Array Except Self, chosen by the weakest cold check | Calculate and interpret one retrieval metric on tiny examples | Tests and metric numerator/denominator |
-| D10 | A fresh small variant of a covered window task; no pattern label supplied | Explain what an idempotency key does and does not guarantee | Separate derivation evidence from familiar-code recall |
-| D11 | Binary Search if earlier gates pass; otherwise repair the weakest covered pattern | Trace one AI failure from input through retrieval to answer | Explicit search/window bounds and a failing example |
+| D08 | Stack fundamentals with Valid Parentheses; extend to Min Stack only if time and understanding permit | Distinguish local locking from coordination across replicas | State trace and correctness explanation before code |
+| D09 | Binary Search if preceding foundations are secure; otherwise repair a weak covered topic | Calculate and interpret one retrieval metric on tiny examples | Explicit search bounds, tests, and metric numerator/denominator |
+| D10 | Begin Sliding Window with Longest Substring Without Repeating Characters if dictionary and pointer reasoning are ready | Explain what an idempotency key does and does not guarantee | Derive the valid-window condition and justify state changes |
+| D11 | Revisit timestamp counting and introduce a moving-window variant only if fixed-window reasoning is correct | Trace one AI failure from input through retrieval to answer | Explicit membership rule, duplicate handling, boundaries, and a counterexample |
 | D12 | Review one weak NeetCode problem and attempt one short changed example | Compare two system or AI designs using one measurable criterion | Delayed recall result and the reason for the comparison |
 | D13 | Cumulative mini-check on covered patterns within the normal session | Brief atomic-ownership and evaluation probes, without notes | Topic-specific independent evidence, not an overall ability score |
 | D14 | 45-minute recap/checkpoint; consolidate covered material in remaining core time | Choose the next block from demonstrated gaps; continue the lab | Keep, repeat, or advance each tested topic |

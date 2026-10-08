@@ -80,6 +80,8 @@ Record the highest help level and what it affected. A hint about an API may affe
 
 Use the real timebox from [PLAN.md](PLAN.md). Log unfinished work honestly. Pauses and tool setup are not problem-solving time. Do not change the rating simply because the learner typed slowly; report elapsed time separately.
 
+During the Python transition, distinguish language/API difficulty from algorithmic difficulty. A syntax reference or help using an already-chosen operation can affect implementation independence without supplying the algorithm. A suggestion to introduce a dictionary, heap, or memoization may reveal the approach and must be classified accordingly. Record what was looked up, which dimension it affected, and actual time; do not silently exclude lookup time or convert an assisted implementation into an independent solve. Guided Python orientation belongs inside the existing learning budget. Day 1 remains ungraded.
+
 ## Optional numeric summary
 
 For a **single topic and attempt only**, an optional `/10` display is:

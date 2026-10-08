@@ -1,6 +1,9 @@
 {
   "timezone": "Asia/Kolkata",
-  "practice_language": "JavaScript",
+  "practice_language": "Python",
+  "practice_runtime": "Python 3",
+  "dsa_roadmap_url": "https://neetcode.io/roadmap",
+  "python_prior_exposure": "self_reported_basics_unassessed",
   "project_runtime": "Node.js",
   "created_on": "2026-10-07",
   "session_minutes": 180,
