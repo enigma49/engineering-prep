@@ -6,6 +6,7 @@
   "actual_active_minutes": null,
   "lesson_id": null,
   "item_ids": [],
+  "problem_attempts": [],
   "evidence": [],
   "ratings": [],
   "assistance": [],

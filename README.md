@@ -34,6 +34,7 @@ Use **18 weeks as the working target, with a 16–20-week planning range**, for 
 - NeetCode 150 is the DSA problem bank, and the [NeetCode roadmap](https://neetcode.io/roadmap) guides topic order. The overlapping problems in the earlier prep plan become retention checks and unfamiliar variations.
 - Roughly 30 problems were previously studied, but their identities and assistance levels have not yet been imported. The tracker does not pretend they were never studied or mark unknown items independently solved.
 - After practice, record whether the work was learned, independent, hinted, or needs review, with a short evidence note.
+- Use the [DSA practice protocol](docs/PLAN.md#how-to-practise-each-dsa-problem): attempt within a timebox, seek help when stuck, reconstruct with the explanation closed, then review later. Gradually test mixed unseen mediums toward a 20–30-minute completion goal.
 - Review gaps grow through **1, 3, 7, 14, and 30 days after the previous successful scheduled review**. A hint or failed recall brings the item back the next day. Early retries are logged but preserve the existing due date and stage; only an independent attempt on or after that date advances the interval.
 - Missing a day leaves reviews due. It does not create a failing score or silently advance the curriculum.
 - Daily ratings describe the assessed task and assistance. Untested dimensions remain unassessed. There is no permanent global ability score.

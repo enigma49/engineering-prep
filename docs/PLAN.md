@@ -37,6 +37,29 @@ Use a short syntax reference during learning practice and disclose its use. Dist
 
 Node.js remains the provisional runtime for portfolio projects. Select each project's implementation language when its build begins; switching DSA to Python does not automatically change the project stack. The existing Python progress utility remains assistant-maintained so studying its implementation is optional.
 
+## How to practise each DSA problem
+
+Use a bounded independent attempt followed by teaching and reconstruction. Learning a new concept and assessing independent performance are different activities. A wholly unfamiliar concept can receive a short explanation first; label the subsequent practice accordingly. Day 1 retains its guided schedule and null ratings.
+
+Once a task is suitable for an independent attempt, this is the default allocation inside the existing 90-minute DSA block:
+
+| Activity | Minutes | Evidence |
+| --- | --- | --- |
+| Independent attempt after the statement is clear | 25 | Save the approach, current code, tested examples, and exact sticking point at the deadline. |
+| Examine the initial attempt | 10 | Identify correct reasoning and the first unresolved requirement, concept, implementation step, or test. |
+| Hints, explanation, and tracing | 35 | Use the smallest useful hint first; explain the complete approach when needed and trace why it works. |
+| Reconstruct and test with the explanation closed | 20 | Write the code from a blank file, check boundaries, and explain correctness and complexity. This remains assisted learning if the approach was supplied. |
+
+These are adjustable learning budgets, not employer thresholds. Python orientation and requirement clarification must fit inside the 90 minutes; shorten or reallocate other portions as needed rather than adding time. During learning practice, 15–20 minutes without meaningful progress is a reason to request help earlier, not to spend the rest of the day stuck. If the explanation is still unclear, use a smaller prerequisite exercise and carry the original problem forward.
+
+Record the initial attempt before giving a strategy. When the timer ends, partial work is assessed on what it demonstrates; an unfinished optimization does not erase a correct straightforward solution. Any further independent time is recorded separately rather than extending the original deadline silently. Do not label work completed after a hint as an independent solve.
+
+To check understanding after an explanation, ask the learner to state the rule the algorithm maintains, trace a different input, explain why state changes are safe, and justify time and space costs. A successful immediate reconstruction does not establish delayed retention. Schedule the later review using the existing growing-gap policy and use changed or unfamiliar examples to test transfer.
+
+Initially learn related problems together along the roadmap. Once several topics are covered, include **mixed checks without category labels**, drawn from those topics, within weekly or fortnightly review time. Seeing a topic label during learning is useful context, but does not show that the learner identified the pattern independently. Earlier practice reportedly used NeetCode 150; do not assume it was random or infer why it failed to transfer without checking the actual topics and attempts.
+
+The eventual speed target is **many representative unseen medium problems completed independently in 20–30 minutes**, including interpretation, implementation, tests, and a correctness/complexity explanation. Measure this on a series of mixed problems across topics and record incomplete attempts as well as successes. It is an aspiration to work toward, not an entry requirement or a promise for every problem. Formal interview-style rounds may use 35–45 minutes and include follow-ups; set their format and timing before starting. See [ASSESSMENT.md](ASSESSMENT.md) for timing and assistance records.
+
 ## DSA topic order
 
 Follow the [NeetCode roadmap](https://neetcode.io/roadmap) shared by the learner as the default progression through NeetCode 150. The following groups reflect its branches, with one main new topic selected at a time. Earlier topics remain in the review queue. This orders the existing curriculum; it does not add another problem list or another study block.

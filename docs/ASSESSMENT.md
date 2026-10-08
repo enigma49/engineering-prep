@@ -82,6 +82,10 @@ Use the real timebox from [PLAN.md](PLAN.md). Log unfinished work honestly. Paus
 
 During the Python transition, distinguish language/API difficulty from algorithmic difficulty. A syntax reference or help using an already-chosen operation can affect implementation independence without supplying the algorithm. A suggestion to introduce a dictionary, heap, or memoization may reveal the approach and must be classified accordingly. Record what was looked up, which dimension it affected, and actual time; do not silently exclude lookup time or convert an assisted implementation into an independent solve. Guided Python orientation belongs inside the existing learning budget. Day 1 remains ungraded.
 
+For each timed problem, retain the task/source, prior exposure, whether its category was revealed, practice mode, agreed timebox, actual timing when measured, deadline snapshot, and any later assisted work. Ordinary learning attempts can begin after clarification. Speed benchmarks and formal mocks count from first presenting the problem, including reading, clarifications, implementation, testing, and explanation; exclude only explicitly recorded non-task interruptions. Compare like timing modes rather than treating all elapsed times as equivalent.
+
+The 20–30-minute unseen-medium target in PLAN.md concerns correct independent completion, not merely recognizing a pattern or recalling familiar code. Record incomplete attempts and the number and scope of problems sampled. Repeated mixed performance, retained knowledge, and help required matter alongside speed. A topic-labeled exercise may demonstrate implementation and reasoning without establishing independent pattern selection.
+
 ## Optional numeric summary
 
 For a **single topic and attempt only**, an optional `/10` display is:
