@@ -8,6 +8,8 @@ The starting evidence identifies gaps in interpreting a time-window invariant, r
 
 The earlier brief diagnostic was assisted in places and did not test the full curriculum. Resume experience is useful context for choosing examples; it is not a substitute for demonstrated answers. The tracker begins with actual recorded practice, not fabricated historic sessions.
 
+The learner has clarified that this is their first formal DSA study and identified 27 previously studied problems. Treat concept knowledge as unestablished until checked; do not use an unfamiliar timed problem as the first introduction to an untaught structure or algorithm. Use a brief, ungraded concept check to choose teaching depth, then assess appropriately scoped independent application after instruction. Neither the prior-study record nor a teaching conversation creates a completed review or a numeric score.
+
 Public notes contain task summaries, code or lab evidence, help used, and a short reflection. Exclude personal information, employer details, proprietary examples, and raw interview transcripts.
 
 ## Separate teaching from assessment

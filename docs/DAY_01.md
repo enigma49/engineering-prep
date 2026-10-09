@@ -1,61 +1,54 @@
-# Day 1: precise requirements and counting
+# Day 1: Python collections and reasoning
 
 **Status: planned, not completed.** Budget: 180 minutes within the 24-hour weekly plan. Start whenever the learner has time; the setup date is not a completed study day. This is a guided session, and Day 1 ratings remain unassessed (`null`).
 
 ## Outcomes
 
-By the end, the learner should be able to describe a function's inputs and numeric output, distinguish an occurrence time from a duration, count repeated values with a Python `dict`, and test a straightforward implementation against examples. This is a teaching session with a small independent exit check.
+By the end, the learner should be able to describe a function's inputs and numeric output, distinguish a list's index from its value, explain what a Python `set` and `dict` represent, trace repeated values, and test a straightforward implementation against examples. This is the learner's first formal DSA study program: teach unfamiliar concepts before expecting an independent solution. It is a guided session with a small independent exit check.
 
 ## Session sequence
 
 | Time | Activity |
 | --- | --- |
-| 0–15 min | Retrieval and orientation: identify 2–3 previously studied NeetCode problems if remembered, explain their inputs and outputs, and recall relevant list/set/dict operations. Do not require reconstructing all 30 or treat imperfect recall as a Day 1 grade. |
-| 15–35 min | Guided specification and count trace: use a brief Python orientation on indentation, `def`, `for`, dictionary-key access, and `len` only as needed. Distinguish timestamps from durations, state the fixed-window rule in ordinary language, and trace repeated user IDs being added to and removed from a `dict`. Explain what a `set` remembers and what it does not. Keep the orientation inside this block. |
-| 35–65 min | Fixed-window exercise below: manually mark included events, explain the boundaries, and implement a simple correct function in Python 3. Derive the implementation before discussing optimization. |
-| 65–90 min | Test empty input, repeated users, an event at the left boundary, and an event after the end. Explain expected results before running the code; repair any mismatch between the rule and implementation. |
-| 90–105 min | Guided transfer: work a changed input and a changed boundary convention. Explain which condition must change and which parts of the implementation remain valid. Do not introduce a new algorithm just to fill time. |
-| 105–150 min | Systems practice: draw the lifecycle of one document job from queued to processing to completed/failed. Locate persistent status, trace a worker crash before and after saving a result, and explain what a replacement worker would need to know. Record unresolved ownership questions for the later lab. |
-| 150–170 min | Independent exit check: tutor supplies a fresh fixed-window input and one changed requirement, followed by a short lifecycle trace if time permits. Record prompts and hints; no need for the maximum-across-all-windows problem yet. |
-| 170–180 min | Save the learner's code, examples, and actual time; leave Day 1 ratings unassessed (`null`) and schedule the first recall review. Later independent sessions use the daily rubric. |
+| 0–15 min | Retrieval and orientation: acknowledge the 27 previously studied problems whose titles are now identified across Arrays & Hashing, Two Pointers, Stack, and Sliding Window. Choose one familiar task or collection concept for a low-pressure explanation. Do not require reconstructing the list or treat prior study as established mastery. No prior review is due merely because the titles were imported. |
+| 15–35 min | Guided Python orientation, as needed: function inputs and return values, indentation, `def`, lists, indices versus values, `for`, and `len`. Explain unfamiliar terms using small concrete examples. Keep up to 20 minutes of language orientation inside this DSA block. |
+| 35–65 min | Teach what a `set` remembers and what a `dict` can associate with each key. Trace a short list with repeated values and a small frequency table by hand. Then clarify the plain-list exercise below, obtain the learner's approach, and begin their Python implementation. Introduce collection operations when their purpose is understood. |
+| 65–90 min | Complete and test the straightforward implementation. Cover empty input, one item, all repeated users, and all different users. State expected results before running code; repair any difference between the requirement and behavior. Save the learner's own work. |
+| 90–105 min | Guided reasoning: trace the code on changed input and count visits or comparisons for a small list. Only if this is comfortable, introduce input size and basic time/space growth in plain language, followed by simple Big-O notation. Do not require formal complexity analysis before its meaning is taught. |
+| 105–150 min | Systems practice: build on the earlier useful queue, retry, and recovery ideas by drawing one document job's queued/processing/completed/failed lifecycle. Teach or clarify persistent status, then trace a worker crash before or after saving a result. Ask what a replacement worker needs to know. Precise lifecycle and ownership reasoning remain incompletely assessed; record open questions for the later lab without assigning a score today. |
+| 150–170 min | Independent exit check: supply a fresh short user list without an answer and ask for the required result and a trace or reconstruction of the function. Include a repeated-value or empty-input case. Record any prompts or hints and distinguish immediate reconstruction from delayed recall. Use a short lifecycle explanation only if time permits. |
+| 170–180 min | Save the learner's code, examples, assistance, and actual time; leave Day 1 ratings unassessed (`null`). Schedule recall only for material actually practised. Later independent sessions use the daily rubric. |
 
 This follows the normal allocation of 15 minutes retrieval, 90 minutes DSA, 45 minutes systems/AI, 20 minutes of independent checks, and 10 minutes logging. Pause the active-study clock for breaks; log actual active minutes. Unfinished work stays pending instead of extending the session automatically.
 
-Record Python syntax or API help separately from algorithmic help. Clarifying the interval already specified in the problem is neutral clarification; showing a missing comparison or state update in the learner's code can be directional help. A generic dictionary-access example need not supply the algorithm, but its effect on implementation independence must still be recorded. No Python prerequisite course or additional study hours are required for this session.
+Record Python syntax or API help separately from algorithmic help. Clarifying the stated input or return type is neutral clarification; recommending the collection that solves the task can be directional help. A generic dictionary-access example need not supply the algorithm, but its effect on implementation independence must still be recorded. No Python prerequisite course or additional study hours are required for this session.
 
 The weekly budget is three core hours daily (21 hours), plus up to 90 flexible minutes on each weekend day (3 hours), for at most 24 hours. Weekend catch-up replaces optional work in those flexible blocks. The 45-minute weekly recap sits inside Sunday's three core hours; it is not an additional session. The planning target is 18 weeks, with a provisional 16–20-week range and progress checked against actual evidence.
 
-## Fixed-window exercise
+## Plain-list exercise
 
-Events contain an occurrence time, in seconds since logging began, and a user ID. We supply both the duration and the current time.
+The input `users` is a list of user IDs, represented by strings. Each list entry records one occurrence of a user; the same user can appear more than once. For example:
 
 ```python
-events = [
-    {"timestamp": 101, "user": "a"},
-    {"timestamp": 105, "user": "b"},
-    {"timestamp": 108, "user": "a"},
-    {"timestamp": 110, "user": "c"},
-]
-duration_seconds = 5
-current_time_seconds = 110
+users = ["a", "b", "a", "c", "b"]
 ```
 
-Each event is a dictionary inside the `events` list. Write `count_distinct_users(events, duration_seconds, current_time_seconds)` in Python 3.
+Write `count_distinct_users(users)` in Python 3. Return the **number of different user IDs**, as an integer. Count a repeated user only once. Empty input returns `0`. There are no timestamps, time units, or window boundaries in this exercise.
 
-Include an event if its time is strictly greater than `current_time_seconds - duration_seconds` and at most `current_time_seconds`. Return the number of different user IDs in that interval. Empty input returns 0. Events after the current time do not count.
-
-First mark the included events by hand and explain the units. The tutor should wait for that explanation before discussing implementation. A simple loop is sufficient. Save the learner's own work under `practice/dsa/`; do not prefill a reference solution.
+First explain the expected result for the supplied example in ordinary language. The tutor should wait for the learner's explanation and approach before suggesting implementation details. Save the learner's own work under `practice/dsa/`; do not prefill the answer or a reference solution.
 
 ## Exit evidence
 
-- Can the learner state the inclusion rule using the example's actual numbers?
+- Can the learner explain the input, the required output, and the meaning of "different" using the supplied list?
+- Can the learner distinguish a list position from the value at that position?
 - Does the returned value have the required type?
-- Can the learner explain duplicates and both boundaries?
-- Does the code match the stated rule on a new example?
+- Can the learner explain what the selected collection remembers, including how repeated values behave?
+- Does the code match the stated rule on changed, repeated-value, and empty inputs?
+- If operation counting was taught, can the learner trace the work on a small input? Leave complexity unassessed if it was not covered.
 - Which parts were taught, prompted, or independently demonstrated?
 - Which help concerned Python syntax/APIs, and which concerned the algorithm or requirements?
 
-Do not require an optimized moving-window algorithm today. Introduce that only once fixed-window reasoning is secure. If this material is already easy, move to an unfamiliar variation instead of extending repetitive explanation.
+Keep timestamps and window membership for a later lesson, after basic collections and straightforward counting are secure. If this material is already easy, use a small frequency-counting variation or deepen the explanation of operation counts. Do not introduce a moving-window algorithm just to fill the session.
 
 ## Busy-day version: 30 minutes
 

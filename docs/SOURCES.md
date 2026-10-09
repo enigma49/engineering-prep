@@ -4,6 +4,7 @@
 
 - The learner's existing 27-page `final_prep_plan.pdf`: topic coverage, CS/systems and AI curriculum, design practice, and project/interview preparation. It is a reference syllabus; its original calendar is not a promise of mastery.
 - The learner's supplied NeetCode 150 title/link list: imported into `data/neetcode150.json`. No problem statements or third-party solutions are copied.
+- A later pasted HTML list plus the learner's explicit report identified 27 previously studied problems; sanitized titles, links, IDs, and source categories are recorded in `data/prior_practice.json`. Markup, checkbox state, and estimated times do not establish performance and are not imported as review events.
 - The initial guided diagnostic: summarized in `BASELINE.md`, with untested areas preserved and no permanent global rating.
 
 The private source files and raw conversation are intentionally not included in this public repository. The plan and baseline here are enough to continue coaching without them.
