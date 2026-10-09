@@ -16,9 +16,9 @@ The first two weeks now emphasize foundations and Arrays & Hashing. Move into po
 
 ## Workload and session structure
 
-- **Agreed weekly capacity:** up to 24 hours. Three hours each day gives 21 hours; add up to 90 minutes on Saturday and 90 minutes on Sunday to reach 24. This is a provisional distribution of the learner's chosen weekly budget; exact clock times await their detailed schedule.
+- **Agreed weekly capacity:** up to 24 hours. Three hours each day gives 21 hours; add up to 90 minutes on Saturday and 90 minutes on Sunday to reach 24. This is a provisional distribution of the learner's chosen weekly budget; personal clock times are managed privately outside the repository.
 - Plan **21 hours of core work plus three hours of weekend flexibility**. The weekly 45-minute recap is included in Sunday's three core hours. Flexibility is used for catch-up first, then optional review or project extensions. Do not make essential new work depend on both the full core allocation and the same hours being available again for catch-up.
-- No check-in time is chosen and no automation is scheduled. Lesson order and completion remain separate from calendar reminders.
+- Reminder settings are managed privately outside this repository. Lesson order and completion remain separate from calendar reminders.
 - Reassess after the first week using actual time, fatigue, review backlog, and independent work. Reduce new material before extending sessions.
 - The original plan assumed about 24.5 hours per week, now close to the agreed capacity. Use the 18-week target below to include consolidation and one project; do not treat the original 15-week calendar as a guaranteed outcome.
 - NeetCode completion is a learning milestone, not proof of mastery. Previously attempted problems can be checked cold; their positions in the list say nothing about current knowledge.
@@ -159,6 +159,8 @@ Most Part 5 problems overlap NeetCode 150. Do not restart them as if new: check 
 As DSA transfer improves, reallocate some main practice blocks to systems/AI projects using the weekly allocation above, while preserving coding retrieval and at least two substantive coding sessions per week. Keep the agreed three-hour normal session and 24-hour weekly ceiling, with the stated weekend flexibility. Follow [LABS.md](LABS.md) for public project work; a problem count alone is not a portfolio deliverable.
 
 ## Review and checkpoint cadence
+
+Follow [REPORTING.md](REPORTING.md) for the report format, measures and resulting coaching decisions. Give brief feedback after every actual session, use the existing weekly recap for the weekly report, and combine it with the fortnightly checkpoint when both fall in the same period. Broader mock reviews can recur at four-week intervals when coverage supports them. Reports and checks replace existing logging, recap or practice blocks rather than adding hours. With no new evidence, preserve the previous assessment and report that limitation.
 
 - Reviews use gaps of **1, 3, 7, 14, then 30 days after the previous successful learning/review event**. These are growing gaps, not offsets from the first attempt. After the final step, continue 30-day maintenance when useful.
 - Initial teaching may create a next-day review; it is not an independent pass. An incorrect or hinted review resets the item to a next-day review. Advance the interval only on an independent success on or after its due date. Early retries preserve the original due date and stage.

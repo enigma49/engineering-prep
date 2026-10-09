@@ -13,6 +13,7 @@ This repository supports an ongoing learner-led preparation program. Read README
 7. Finish with strengths supported by answers, the exact unresolved step, task-specific rubric results, one next action, and review dates. No personal labels or speculative industry percentiles. Untested is null/unassessed, never zero. A skipped question is not a failure.
 8. Save a dated session Markdown file and JSON assessment using the template. Record review events only after actual practice. Regenerate PROGRESS.md. Do not invent completion, elapsed time, or scores.
 9. Inspect the diff, preserve learner changes, and commit completed session progress. The learner requested a public progress repository; only publish sanitized curriculum/practice/assessment artifacts within that scope. Never upload raw conversations, private documents, company code/data, or secrets. Report a push failure honestly.
+10. Follow docs/REPORTING.md: give a brief report after actual practice, a weekly evidence report, a fortnightly checkpoint, and a broader mock review when coverage supports it. Use existing study/recap time. Include all skill tracks with unassessed areas explicit, compare like tasks, and turn findings into concrete teaching changes. Report only recorded evidence; do not manufacture progress when a reporting date passes. Keep the personal timetable, routine/reminder clock times, and private reasons for interruptions out of tracked files and Git history.
 
 ## Learning priorities
 
@@ -27,6 +28,6 @@ This repository supports an ongoing learner-led preparation program. Read README
 
 ## Schedule and persistence
 
-The learner has authorized up to 24 study hours per week, normally three hours per day with additional weekend capacity. The exact clock times remain pending their detailed schedule. Check-in time is intentionally unset; no automation has been created. Ask for the actual reminder timing before creating one. A later scheduled check-in should read the latest repository state, suggest the next session and due reviews, and never solve, grade, commit, or mark practice complete without learner participation. Keep routine reminders concise and suppress duplicate reminders after that day's session is completed.
+The learner has authorized up to 24 study hours per week, normally three hours per day with additional weekend capacity. Personal availability and reminder settings are managed privately outside this public repository. Ask for actual reminder timing if it has not been chosen in the conversation; do not repeatedly ask once authorized. A scheduled check-in should read the latest repository state, suggest the next session and due reviews, and never solve, grade, commit, or mark practice complete without learner participation. Keep routine reminders concise and suppress duplicate reminders after that day's session is completed. Prioritize returning to practice over a perfect streak: carry the next incomplete lesson forward, use the short fallback when needed, and keep catch-up within the weekly budget.
 
 This file and the tracked progress preserve context across chats. Do not promise perfect memory outside the repository.

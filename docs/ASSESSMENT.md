@@ -100,6 +100,8 @@ Example: a DSA attempt with scores `[2, 1, null, null]` has an optional score of
 
 ## Reviews and readiness
 
+Use [REPORTING.md](REPORTING.md) to turn assessments into session feedback, weekly reports, and fortnightly coaching decisions. Compare similar tasks and state the sample size, coverage, help and timing. Report independent application, delayed recall, unfamiliar transfer and project evidence separately. Missing participation logs are unknown, and private timetable details never belong in reports.
+
 - Review gaps are 1, 3, 7, 14, then 30 days **after the previous successful event**, using real completion dates. Hinted or unsuccessful reviews reset to the next day. The final interval may repeat for maintenance.
 - An initial teaching session can schedule next-day retrieval, but does not count as independent recall. A successful review must match the item's objective without solution help. Only success on or after the due date advances the interval; early retries keep that due date and stage.
 - Weekly reviews summarize evidence and workload; 14-day checkpoints examine retention and transfer across completed topics.

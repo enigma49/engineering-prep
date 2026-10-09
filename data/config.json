@@ -20,12 +20,11 @@
     20
   ],
   "busy_day_minutes": 30,
-  "workload_status": "weekly_budget_agreed_clock_times_pending",
+  "workload_status": "weekly_budget_agreed_personal_schedule_private",
   "check_in": {
-    "status": "awaiting_user_schedule",
-    "time": null,
-    "automation_id": null
+    "management": "outside_public_repository"
   },
+  "reporting_policy": "docs/REPORTING.md",
   "next_lesson": "D01",
   "current_phase": "foundations",
   "prior_practice": {

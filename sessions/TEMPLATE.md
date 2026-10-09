@@ -37,3 +37,7 @@ Use docs/ASSESSMENT.md. Each dimension needs evidence; leave untested dimensions
 - Next due dates:
 - Work carried forward:
 - Next lesson:
+
+## Brief progress report
+
+Summarize the evidence above in a few sentences for the learner: one demonstrated strength, independence/help used, the exact unresolved step, and the next action/review. Follow docs/REPORTING.md. Keep personal timetable details and private reasons for interruptions out of this file. This summary uses the existing logging block and is not another scored exercise.

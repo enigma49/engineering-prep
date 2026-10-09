@@ -2,7 +2,7 @@
 
 A daily learning workspace for data structures and algorithms, system design, and applied AI. The aim is to build correct independent solutions, retain concepts, and produce working projects with evidence.
 
-**Current stage:** foundations. **Next session:** [Day 1](docs/DAY_01.md). **Daily schedule:** awaiting the learner's availability; no reminder is active.
+**Current stage:** foundations. **Next session:** [Day 1](docs/DAY_01.md). Personal scheduling and reminder settings are managed privately outside this repository.
 
 **DSA practice language:** Python 3. Build Python fluency alongside problem solving, with short orientation inside the existing study budget and language help recorded separately from algorithmic hints. Node.js remains the provisional project runtime; each project's implementation language can be chosen when its build begins.
 
@@ -14,7 +14,7 @@ Open this repository in your coding assistant and say:
 
 > Start today's practice. Read AGENTS.md and the progress files, check due reviews, and guide me through one question at a time. Teach first where needed; keep independent checks separate. Save an evidence-based assessment and the next review dates when we finish.
 
-The agreed budget is **up to 24 hours per week**: three hours Monday–Friday and up to four and a half hours on each weekend day. Plan 21 hours of core work and reserve three weekend hours for catch-up or optional practice. The 45-minute weekly recap is inside Sunday's core time. A 30-minute fallback keeps reviews moving on busy days. Actual clock times remain pending the learner's detailed schedule.
+The agreed budget is **up to 24 hours per week**: three hours Monday–Friday and up to four and a half hours on each weekend day. Plan 21 hours of core work and reserve three weekend hours for catch-up or optional practice. The 45-minute weekly recap is inside Sunday's core time. A 30-minute fallback keeps reviews moving on busy days. Carry missed work forward and resume the next lesson; consistency does not require a perfect streak. Exact personal clock times stay outside this public repository.
 
 Use **18 weeks as the working target, with a 16–20-week planning range**, for broad preparation and one finished showcase project. This replaces the earlier estimate based on a smaller weekly budget. It is a planning estimate, not a completion or hiring promise. See the [timeline and topic scope](docs/PLAN.md#provisional-timeline-and-topic-scope); revise it after the first two practice weeks using actual time and independent work.
 
@@ -27,6 +27,7 @@ Use **18 weeks as the working target, with a 16–20-week planning range**, for 
 | [Baseline](docs/BASELINE.md) | Specific observations from the initial diagnostic |
 | [Assessment](docs/ASSESSMENT.md) | Transparent daily ratings and how help is recorded |
 | [Progress](PROGRESS.md) | Dashboard generated from recorded practice |
+| [Reporting](docs/REPORTING.md) | Session feedback, weekly reports, fortnightly checks and coaching adjustments |
 | [Tracker](docs/TRACKER.md) | Local commands and review scheduling |
 | [Systems and AI labs](docs/LABS.md) | Small experiments that lead toward portfolio projects |
 | [Sources](docs/SOURCES.md) | Curriculum references and provenance |
@@ -55,6 +56,7 @@ Record real practice only; see [tracker instructions](docs/TRACKER.md) for examp
 docs/             curriculum, baseline, rubric, and session guides
 data/             problem catalog, concept catalog, and review history
 sessions/         dated session notes and assessments
+reports/          evidence-based weekly and checkpoint reports
 practice/dsa/     learner-written solutions and explanations
 practice/systems/ diagrams, failure timelines, and experiments
 practice/ai/      evaluation cases, measurements, and experiments
