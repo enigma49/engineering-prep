@@ -2,13 +2,13 @@
 
 This plan uses NeetCode 150 as the DSA spine and the existing preparation plan for systems, AI, projects, and interviews. It adds practice structure, not another large curriculum.
 
-**Day 1 is planned, not completed.** No score or completion is inferred from a scheduled date. See [Day 1](DAY_01.md), [baseline](BASELINE.md), and [assessment rules](ASSESSMENT.md).
+**Day 1 is in progress, not completed.** The opening distinct-user-count exercise has begun. No score or completion is inferred from a scheduled date. See [Day 1](DAY_01.md), [baseline](BASELINE.md), and [assessment rules](ASSESSMENT.md).
 
 ## Foundations-first starting point
 
 This is the learner's first formal DSA study. They have identified 27 previously studied problems across Arrays & Hashing, Two Pointers, Stack, and Sliding Window, but report limited conceptual understanding. See [prior practice](../data/prior_practice.json). Do not assume the underlying theory was learned just because a problem was encountered, and do not discard the familiarity they already have.
 
-For each new topic, teach what it represents, its basic operations, a small manual trace, and the rule that makes the approach correct. Begin with Python lists, indices, sets, dictionaries, loops, and simple counting. Introduce time and extra-space complexity by counting work on small inputs before using Big O notation. Explain terms such as hash map, invariant, recursion, and amortized cost when they arise rather than treating them as prerequisites the learner already knows.
+For each new topic, teach what it represents, its basic operations, a small manual trace, and the rule that makes the approach correct. Begin with JavaScript arrays, indices, `Set`, `Map`, loops, and simple counting. Introduce time and extra-space complexity by counting work on small inputs before using Big O notation. Explain terms such as hash map, invariant, recursion, and amortized cost when they arise rather than treating them as prerequisites the learner already knows.
 
 Use **concept explanation → tiny guided exercise → appropriately scoped independent attempt → feedback → delayed review**. An initial ungraded check can reveal familiar material and reduce repetition. The timed problem protocol applies when the relevant concept has been introduced and the learner can trace a basic example. A topic that still lacks prerequisites receives teaching, not a surprise interview test.
 
@@ -39,13 +39,13 @@ Stop at the chosen time limit and log unfinished work. If due reviews exceed the
 
 ## Language
 
-Use **Python 3 for DSA**. The learner reports some basic Python knowledge and wants to build fluency through problem solving. This supersedes the earlier JavaScript choice. Prior familiarity is self-reported and will be checked through small exercises; it is not a completed Python course or an assessment score.
+Use **JavaScript for DSA**, with Node.js for local execution. The learner explicitly returned to JavaScript during Day 1 after submitting their own implementation of the distinct-user-count exercise. This supersedes the Python preference. Check relevant language knowledge through small examples; familiarity with JavaScript does not establish DSA mastery.
 
-During the **first five sessions**, use up to **20 minutes of the existing 90-minute DSA block** for Python orientation when needed. Start with functions, indentation, loops, `range`, lists, dictionaries, sets, membership, `len`, and simple tests. Add iteration helpers, sorting, mutability, strings, and recursion as problems require them. Introduce `collections.Counter`, `defaultdict`, `deque`, and `heapq` at the relevant topics, after the learner understands the behavior being represented. Reduce orientation when a cold check shows fluency; do not delay all DSA work until a separate language course is finished.
+Teach `Array`, `Set`, `Map`, `.length` versus `.size`, `for...of`, and relevant operations when needed, within the existing **90-minute DSA block**. Adapt orientation to demonstrated knowledge rather than reserving a fixed number of sessions or minutes. Add sorting comparators, mutability, strings, recursion, queues, and heap operations when their topics require them, after explaining the represented behavior. There is no Python prerequisite or separate language course to finish before continuing DSA.
 
-Use a short syntax reference during learning practice and disclose its use. Distinguish a Python API lookup from a hint that supplies an algorithm; both must be recorded accurately. Implementation mistakes still need correction, while demonstrated reasoning is assessed on its own evidence. See [ASSESSMENT.md](ASSESSMENT.md). Day 1 remains guided and ungraded. Reassess language friction and the overall pace after two weeks; the 18-week target remains provisional.
+Use a short syntax reference during learning practice and disclose its use. Distinguish a JavaScript API lookup from a hint that supplies an algorithm; both must be recorded accurately. Implementation mistakes still need correction, while demonstrated reasoning is assessed on its own evidence. See [ASSESSMENT.md](ASSESSMENT.md). Day 1 remains guided and ungraded. Reassess language friction and the overall pace after two weeks; the 18-week target remains provisional.
 
-Node.js remains the provisional runtime for portfolio projects. Select each project's implementation language when its build begins; switching DSA to Python does not automatically change the project stack. The existing Python progress utility remains assistant-maintained so studying its implementation is optional.
+Node.js remains the provisional runtime for portfolio projects. Select each project's implementation language when its build begins. The existing Python progress utility remains assistant-maintained; using that tool does not require the learner to study Python.
 
 ## How to practise each DSA problem
 
@@ -60,7 +60,7 @@ Once a task is suitable for an independent attempt, this is the default allocati
 | Hints, explanation, and tracing | 35 | Use the smallest useful hint first; explain the complete approach when needed and trace why it works. |
 | Reconstruct and test with the explanation closed | 20 | Write the code from a blank file, check boundaries, and explain correctness and complexity. This remains assisted learning if the approach was supplied. |
 
-These are adjustable learning budgets, not employer thresholds. Python orientation and requirement clarification must fit inside the 90 minutes; shorten or reallocate other portions as needed rather than adding time. During learning practice, 15–20 minutes without meaningful progress is a reason to request help earlier, not to spend the rest of the day stuck. If the explanation is still unclear, use a smaller prerequisite exercise and carry the original problem forward.
+These are adjustable learning budgets, not employer thresholds. Any language/API teaching and requirement clarification must fit inside the 90 minutes; shorten or reallocate other portions as needed rather than adding time. During learning practice, 15–20 minutes without meaningful progress is a reason to request help earlier, not to spend the rest of the day stuck. If the explanation is still unclear, use a smaller prerequisite exercise and carry the original problem forward.
 
 Record the initial attempt before giving a strategy. When the timer ends, partial work is assessed on what it demonstrates; an unfinished optimization does not erase a correct straightforward solution. Any further independent time is recorded separately rather than extending the original deadline silently. Do not label work completed after a hint as an independent solve.
 
@@ -76,7 +76,7 @@ Follow the [NeetCode roadmap](https://neetcode.io/roadmap) shared by the learner
 
 | Roadmap group | Topics |
 | --- | --- |
-| 1 | Arrays & Hashing, using Python lists, dictionaries, and sets |
+| 1 | Arrays & Hashing, using JavaScript arrays, `Map`, and `Set` |
 | 2 | Two Pointers and Stack |
 | 3 | Binary Search, Sliding Window, and Linked List |
 | 4 | Trees, including explicit recursion and call-stack practice |
@@ -89,7 +89,7 @@ These are suggested learning connections, not universal prerequisite claims. Bas
 
 Before shifting the main topic, seek a few varied independent attempts (initially about 2–3 appropriately scoped tasks), clear explanations, and relevant edge-case tests. This is an adjustable coaching check, not proof of mastery. Continue delayed recall and unfamiliar variants after advancing. Do not require every problem, especially every hard, to be solved before starting the next topic. Preserve incomplete items for later repair.
 
-Day 1 uses a plain list of user IDs to teach requirements and Python collections. Introduce fixed-interval filtering later as a small boundary exercise; introduce moving/sliding-window state after arrays/hashing and basic pointer reasoning are secure.
+Day 1 uses an array of user IDs to teach requirements and JavaScript collections. Introduce fixed-interval filtering later as a small boundary exercise; introduce moving/sliding-window state after arrays/hashing and basic pointer reasoning are secure.
 
 ## Provisional timeline and topic scope
 
@@ -99,7 +99,7 @@ The table gives emphasis windows within an 18-week model. Topics overlap, and de
 
 | Approximate weeks | Main emphasis | Evidence we want |
 | --- | --- | --- |
-| 1–2 | Formal DSA foundations: requirements, Python lists/indices/dictionaries/sets, frequency counting, basic operation counts and Big O, and Arrays & Hashing. Pointer reasoning only if these are secure. Job lifecycle and RAG diagnosis alongside. | Correct small traces, explanations and implementations; identify which prior work is retained and which concepts or Python operations need teaching. |
+| 1–2 | Formal DSA foundations: requirements, JavaScript arrays/indices/`Map`/`Set`, frequency counting, basic operation counts and Big O, and Arrays & Hashing. Pointer reasoning only if these are secure. Job lifecycle and RAG diagnosis alongside. | Correct small traces, explanations and implementations; identify which prior work is retained and which concepts or JavaScript operations need teaching. |
 | 3–7 | Two pointers, sliding windows, stacks, binary search, linked lists, recursion, trees, and heaps. OS/concurrency, networking, databases. Build the worker-recovery lab, then the evaluation lab. | Increasingly independent easy/medium attempts, delayed recall, and reproducible lab failure tests and metric calculations. |
 | 8–12 | Graphs, backtracking, tries, intervals, greedy methods, dynamic programming, and remaining NeetCode categories. Distributed systems, general design, applied AI, capacity estimation. Begin one integrated project when the labs are ready. | Broader DSA coverage, fresh mixed attempts, complete design discussions, and a working project slice with tests. |
 | 13–16 | Complete or repair the NeetCode pass, practice mixed unseen problems and design follow-ups, and finish and measure the project. | Retained skills across patterns, defensible design tradeoffs, and a runnable project with reproducible measurements. |
@@ -126,9 +126,9 @@ Choose one main NeetCode problem or foundation exercise per session initially. I
 
 | Slot | DSA or recap work | Systems/AI focus | Evidence to retain |
 |---|---|---|---|
-| D01 | Guided Python lists, indices, set/dictionary purpose, simple counting, and input/output reasoning | Job lifecycle and one failure trace | Guided notes and exit evidence; new assessment scores remain null |
+| D01 | Guided JavaScript arrays, indices, `Set`/`Map` purpose, simple counting, and input/output reasoning; teach APIs as needed | Job lifecycle and one failure trace | Guided notes and exit evidence; new assessment scores remain null |
 | D02 | What work an algorithm performs: trace one loop and nested loops, introduce basic time/space notation, then a tiny duplicate check | Separate retrieval quality from answer quality in a document assistant | Manual operation counts and a explained, small implementation |
-| D03 | Sets, dictionaries, membership, and duplicate detection; revisit Contains Duplicate after the concept lesson | State what a worker must claim atomically, with a concrete example | Explain each stored value, operation, and relevant test |
+| D03 | `Set`, `Map`, membership, and duplicate detection; revisit Contains Duplicate after the concept lesson | State what a worker must claim atomically, with a concrete example | Explain each stored value, operation, and relevant test |
 | D04 | Frequency counting and equality of counts; Valid Anagram if the small counting exercise is secure | Define relevant documents, correct answers, and an evaluation baseline | Count trace, correctness explanation, and duplicate cases |
 | D05 | Two Sum: derive a correct straightforward approach, then explain what stored information could avoid repeated work | Examine worker crash, retry, and stale ownership | Distinct-index reasoning, tests, and an operation-count comparison |
 | D06 | Consolidate Arrays & Hashing using a weak prior problem or a changed small task; teach prerequisites before Group Anagrams or prefix/suffix exercises | Build a tiny held-out evaluation table in the lab | Initial attempt, help level, and the exact concept needing repair |

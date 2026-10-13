@@ -14,7 +14,7 @@ The private source files and raw conversation are intentionally not included in 
 - [NeetCode 150](https://neetcode.io/practice/practice/neetcode150): main DSA problem bank. Its own description assumes basic familiarity with algorithms and data structures.
 - [NeetCode roadmap](https://neetcode.io/roadmap): topic progression adopted from the learner's shared diagram. Arrows guide the study order and are not universal prerequisite rules; private screenshot/browser details are not included in the repository.
 - [How to use NeetCode effectively](https://neetcode.io/courses/lessons/how-to-use-neetcode-effectively): attempt, study explanations when stuck, and revisit challenging problems independently.
-- [Python tutorial: data structures](https://docs.python.org/3/tutorial/datastructures.html): lists, dictionaries, sets, iteration, and standard collection behavior for the Python DSA transition.
+- [MDN: Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) and [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map): collection behavior and APIs for JavaScript DSA practice.
 - [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/): selected OS/concurrency explanations; do not assign entire sections before the learner needs them.
 - [Go synchronization package](https://pkg.go.dev/sync): consult when implementing Go concurrency experiments.
 - [Amazon SQS visibility timeout](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html): queue redelivery and in-flight processing behavior.

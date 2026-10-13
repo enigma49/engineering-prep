@@ -2,9 +2,9 @@
 
 A daily learning workspace for data structures and algorithms, system design, and applied AI. The aim is to build correct independent solutions, retain concepts, and produce working projects with evidence.
 
-**Current stage:** foundations. **Next session:** [Day 1](docs/DAY_01.md). Personal scheduling and reminder settings are managed privately outside this repository.
+**Current stage:** foundations. **Current session:** [Day 1](docs/DAY_01.md) is in progress; the opening distinct-user-count exercise has begun, and the lesson is not complete. Personal scheduling and reminder settings are managed privately outside this repository.
 
-**DSA practice language:** Python 3. Build Python fluency alongside problem solving, with short orientation inside the existing study budget and language help recorded separately from algorithmic hints. Node.js remains the provisional project runtime; each project's implementation language can be chosen when its build begins.
+**DSA practice language:** JavaScript, with Node.js for local execution. The learner returned to JavaScript during Day 1. Teach collections and APIs as needed within the existing study budget, with language help recorded separately from algorithmic hints. There is no Python prerequisite. Node.js remains the provisional project runtime; each project's implementation language can be chosen when its build begins. The assistant maintains the existing Python progress utility.
 
 **Starting point:** first formal DSA study, with limited conceptual foundations and 27 identified previously studied problems. Begin with explicit concept teaching and small exercises before timed unfamiliar problems. Existing software-engineering experience remains relevant.
 
@@ -23,7 +23,7 @@ Use **18 weeks as the working target, with a 16–20-week planning range**, for 
 | File | Purpose |
 | --- | --- |
 | [Plan](docs/PLAN.md) | First two weeks, later stages, and advancement criteria |
-| [Day 1](docs/DAY_01.md) | The first guided session; not yet completed |
+| [Day 1](docs/DAY_01.md) | The first guided session; in progress, not completed |
 | [Baseline](docs/BASELINE.md) | Specific observations from the initial diagnostic |
 | [Assessment](docs/ASSESSMENT.md) | Transparent daily ratings and how help is recorded |
 | [Progress](PROGRESS.md) | Dashboard generated from recorded practice |

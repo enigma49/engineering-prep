@@ -1,0 +1,35 @@
+{
+  "session_id": "2026-10-13-D01",
+  "date": "2026-10-13",
+  "status": "in progress",
+  "planned_minutes": 180,
+  "actual_active_minutes": null,
+  "lesson_id": "D01",
+  "item_ids": ["dsa.requirements", "dsa.hashmaps"],
+  "problem_attempts": [],
+  "evidence": [
+    "Correctly counted three distinct IDs in the first example; initially misunderstood the required single-integer output format.",
+    "After neutral output-format clarification, returned 2 for the changed list and explained that it contained two distinct values.",
+    "Selected a set, iteration, insertion and returning set size without an algorithm hint, then explained that adding a duplicate does not create another entry.",
+    "Chose JavaScript and submitted their own implementation using Set, for...of, add and size without supplied code or JavaScript syntax help.",
+    "The saved implementation passed six tutor-run checks: empty, singleton, repeated, distinct, mixed and multi-character IDs. Learner-designed testing remains unassessed.",
+    "Manual tracing, full correctness explanation, complexity and delayed recall remain pending. Day 1 remains guided and in progress."
+  ],
+  "ratings": [],
+  "assistance": [
+    {
+      "level": "neutral prompt",
+      "scope": "output contract",
+      "details": "Explained integer return notation and checked a changed example. No algorithm was supplied before the learner chose a set."
+    },
+    {
+      "level": "neutral prompt",
+      "scope": "correctness explanation",
+      "details": "Asked what happens when an already-present ID is added. After the learner explained duplicate behavior, clarified unique values versus individual characters in an ID. This followed their selection of Set; no code or JavaScript syntax was supplied."
+    }
+  ],
+  "artifacts": ["practice/dsa/day-01-count-distinct-users.js"],
+  "review_events": [],
+  "deferred_items": [],
+  "next_action": "Manually trace the submitted function on a changed input containing multi-character IDs."
+}

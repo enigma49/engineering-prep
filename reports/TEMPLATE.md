@@ -24,7 +24,7 @@ Missing logs remain unknown. Leave unavailable measures unassessed; do not infer
 
 | Track | Topic and evidence/artifact | Assistance | Change on comparable evidence | Remaining gap and next action |
 | --- | --- | --- | --- | --- |
-| Python for DSA | Unassessed in this period | — | — | — |
+| JavaScript for DSA | Unassessed in this period | — | — | — |
 | DSA | Unassessed in this period | — | — | — |
 | CS fundamentals | Unassessed in this period | — | — | — |
 | System design | Unassessed in this period | — | — | — |

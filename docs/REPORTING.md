@@ -32,7 +32,7 @@ Include each track below; write **unassessed in this period** where there is no 
 
 | Track | Useful evidence |
 | --- | --- |
-| Python for DSA | Can implement an already-chosen approach; relevant language/API help and implementation errors. |
+| JavaScript for DSA | Can implement an already-chosen approach; relevant language/API help and implementation errors. |
 | DSA | Requirement interpretation, correctness, implementation, tests and complexity; distinguish familiar recall from unfamiliar transfer. |
 | CS fundamentals | Mechanism explanations and small traces or experiments involving networking, databases, operating systems or concurrency. |
 | System design | Requirements, coherent data flow, justified decisions, explicit failure/recovery behavior and follow-ups. |
