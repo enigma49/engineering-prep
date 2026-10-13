@@ -185,7 +185,7 @@ No reviews due. Select new work from the daily plan.
 | ID | Item | Latest outcome | Last attempt | Next review |
 | --- | --- | --- | --- | --- |
 | dsa.requirements | Inputs, outputs, units, and boundaries | No logged attempt | — | — |
-| dsa.hashmaps | Sets, maps, and frequency counts | No logged attempt | — | — |
+| dsa.hashmaps | Sets, maps, and frequency counts | Attempted with hints | 2026-10-13 | 2026-10-14 |
 | dsa.window_membership | Time-window membership and invariants | No logged attempt | — | — |
 | dsa.bruteforce | Correct straightforward algorithms | No logged attempt | — | — |
 | systems.job_lifecycle | Durable job lifecycle and recovery | No logged attempt | — | — |
@@ -196,6 +196,8 @@ No reviews due. Select new work from the daily plan.
 
 ## Recent evidence
 
-No attempts recorded yet. The diagnostic and self-reported past practice are not logged as completed learning.
+| Date | ID | Outcome | Evidence | Assistance |
+| --- | --- | --- | --- | --- |
+| 2026-10-13 | dsa.hashmaps | hinted | Selected Set for distinct counting, implemented it and traced whole IDs. Independently proposed frequency counting; corrected the first-occurrence initialization after a debugging hint. Revised function passed six tutor-run cases. Learner-designed testing, complexity and delayed recall remain unassessed. See sessions/2026-10-13-D01.md. | Neutral output and trace prompts; directional initialization hint and explanation that the old expression produced two; supplied loop-variable declaration syntax. Learner wrote the revised counting expression. |
 
 Review intervals: 1, 3, 7, 14, then 30 days. Intervals are counted from the actual attempt date. An assisted or unsuccessful attempt resets the interval to 1 day. Independent attempts before the scheduled due date preserve the current stage and due date; only due or overdue independent reviews advance the interval.

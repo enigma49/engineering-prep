@@ -5,7 +5,10 @@
   "planned_minutes": 180,
   "actual_active_minutes": null,
   "lesson_id": "D01",
-  "item_ids": ["dsa.requirements", "dsa.hashmaps"],
+  "item_ids": [
+    "dsa.requirements",
+    "dsa.hashmaps"
+  ],
   "problem_attempts": [],
   "evidence": [
     "Correctly counted three distinct IDs in the first example; initially misunderstood the required single-integer output format.",
@@ -13,7 +16,12 @@
     "Selected a set, iteration, insertion and returning set size without an algorithm hint, then explained that adding a duplicate does not create another entry.",
     "Chose JavaScript and submitted their own implementation using Set, for...of, add and size without supplied code or JavaScript syntax help.",
     "The saved implementation passed six tutor-run checks: empty, singleton, repeated, distinct, mixed and multi-character IDs. Learner-designed testing remains unassessed.",
-    "Manual tracing, full correctness explanation, complexity and delayed recall remain pending. Day 1 remains guided and in progress."
+    "After a neutral request for concrete intermediate states, correctly traced the input containing ab, a, ab, b: retained whole IDs, left the set unchanged for the repeat, and reached the final set containing ab, a and b.",
+    "Learner requested less repetition of understood set basics. Continued with frequency counting.",
+    "Independently proposed storing a count by user ID, incrementing existing counts and initializing new IDs at one. Submitted a plain-object implementation; the initial artifact is saved unchanged.",
+    "Tutor checks of the frequency attempt: empty input returned an empty object; singleton a returned a count of 2; the mixed example returned a:4, b:3, c:2 instead of a:3, b:2, c:1. A separate strict-mode check raised ReferenceError because the loop variable was undeclared.",
+    "Explained that undefined is falsy and the original fallback returns one. After the tutor explained the additional increment and provided loop-variable declaration syntax, changed the fallback to zero and declared const user.",
+    "The learner-authored revised frequency function passed six tutor-run cases in strict mode under the single-lowercase-letter ID contract. This is a correction after assistance, not an independent first-attempt solve. Learner-designed tests, complexity and delayed recall remain pending."
   ],
   "ratings": [],
   "assistance": [
@@ -25,11 +33,33 @@
     {
       "level": "neutral prompt",
       "scope": "correctness explanation",
-      "details": "Asked what happens when an already-present ID is added. After the learner explained duplicate behavior, clarified unique values versus individual characters in an ID. This followed their selection of Set; no code or JavaScript syntax was supplied."
+      "details": "Asked what happens when an already-present ID is added. After the learner explained duplicate behavior, clarified unique values versus individual characters in an ID. This followed their selection of Set; no code or JavaScript syntax was supplied. When a later answer described general behavior, provided an empty trace template without supplying its states; the learner then traced the changed input correctly."
+    },
+    {
+      "level": "directional hint",
+      "scope": "frequency-count initialization",
+      "details": "Highlighted initialization and asked the learner to evaluate the expression for an absent key. The learner explained the fallback; the tutor then explained that the additional increment produces two and requested a repair. The learner supplied the revised counting expression."
+    },
+    {
+      "level": "directional hint",
+      "scope": "JavaScript syntax only",
+      "details": "Supplied for (const user of users) to declare the loop variable. This syntax help did not supply the counting algorithm; the learner incorporated it into their revision."
     }
   ],
-  "artifacts": ["practice/dsa/day-01-count-distinct-users.js"],
-  "review_events": [],
+  "artifacts": [
+    "practice/dsa/day-01-count-distinct-users.js",
+    "practice/dsa/day-01-user-frequency-initial.js",
+    "practice/dsa/day-01-user-frequency-revised.js"
+  ],
+  "review_events": [
+    {
+      "item_id": "dsa.hashmaps",
+      "date": "2026-10-13",
+      "outcome": "hinted",
+      "next_review": "2026-10-14",
+      "scope": "Set distinct counting and plain-object frequency counting; tutor-tested correction after assistance, with independent testing and delayed recall still pending."
+    }
+  ],
   "deferred_items": [],
-  "next_action": "Manually trace the submitted function on a changed input containing multi-character IDs."
+  "next_action": "Introduce time-complexity reasoning through how the number of counting updates changes when the input length doubles."
 }
