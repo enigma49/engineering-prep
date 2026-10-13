@@ -118,6 +118,9 @@
   ],
   "next_action": "Begin D02 with due counting/lifecycle recall, then operation counts for single and nested loops and the first AI exercise separating retrieval quality from answer quality. Keep advanced recovery details in the dedicated lab.",
   "completion_scope": "Guided D01 foundation exercises and bounded systems discussion completed; deferred guarantees and unassessed dimensions remain explicit. No claim of three actual study hours or topic mastery.",
+  "coaching_adjustments": [
+    "After session completion, learner feedback identified excessive worker diagnostic follow-ups before teaching the missing mechanisms. For unfamiliar concepts, explain one objective, demonstrate a small worked example, and offer a changed application with guidance before later independent assessment. Teach a missing prerequisite instead of extending the question chain; use existing evidence to avoid repeating understood basics. D02 AI begins with concrete diagnosis teaching. This is a coaching-method update, not new practice or a change to scores, time, review events, or lesson completion."
+  ],
   "validation_cases": [
     {
       "exercise": "exactly-once exit variant",

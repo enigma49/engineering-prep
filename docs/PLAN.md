@@ -10,7 +10,9 @@ This is the learner's first formal DSA study. They have identified 27 previously
 
 For each new topic, teach what it represents, its basic operations, a small manual trace, and the rule that makes the approach correct. Begin with JavaScript arrays, indices, `Set`, `Map`, loops, and simple counting. Introduce time and extra-space complexity by counting work on small inputs before using Big O notation. Explain terms such as hash map, invariant, recursion, and amortized cost when they arise rather than treating them as prerequisites the learner already knows.
 
-Use **concept explanation → tiny guided exercise → appropriately scoped independent attempt → feedback → delayed review**. An initial ungraded check can reveal familiar material and reduce repetition. The timed problem protocol applies when the relevant concept has been introduced and the learner can trace a basic example. A topic that still lacks prerequisites receives teaching, not a surprise interview test.
+Use **concept explanation → tutor-worked example → changed application with guidance → feedback → later independent practice and review** for unfamiliar concepts across DSA, systems, and AI. State the lesson objective and whether the activity is learning or assessment. At most one brief, ungraded opening check can establish familiarity; existing evidence can shorten or remove basic teaching. Once a gap appears, explain the missing concept instead of asking a chain of progressively deeper diagnostic questions. Keep one main objective per block; park deeper mechanisms for their planned lesson or lab.
+
+The timed problem protocol applies when the relevant prerequisites have been introduced and the learner can trace a basic example. Obtain the learner's own approach before supplying the assessed problem's algorithm. Immediate reproduction remains guided practice; a changed application without additional hints is useful evidence but does not establish delayed retention. A topic that still lacks prerequisites receives teaching, not a surprise interview test.
 
 The first two weeks now emphasize foundations and Arrays & Hashing. Move into pointers and other branches only when the small checks support it. Existing software-engineering experience can still support systems and AI work; the DSA clarification does not reset every domain to zero. Keep the 18-week target as a capacity forecast and revisit it after two weeks of actual learning evidence; it is not a deadline for claiming readiness.
 
@@ -33,6 +35,8 @@ The first two weeks now emphasize foundations and Arrays & Hashing. Move into po
 
 Initially the DSA block and exit check account for about 60% of a normal session. The focus block alternates systems and AI. Sessions may be split across the day. Breaks and setup are not logged as active practice. On Saturday use core time for consolidation and a longer lab or project block. On Sunday use 45 core minutes for recap/checkpoint and the remaining 135 core minutes for due reviews, weak-topic repair, or the current lab/project.
 
+For D02's 45-minute AI block, use the learner's existing retrieval-versus-generation distinction as a starting point and teach how to verify it: 10 minutes explaining the document → retrieval → supplied context → generated answer pipeline; 10 minutes working through tiny failure examples and their observable evidence; 15 minutes for a changed learner application with guidance available; and 10 minutes for a short separate check and feedback. These are adjustable planned allocations, not recorded study time. Deeper evaluation metrics stay in their later lessons. The worker-recovery lab likewise begins with an explanation and demonstration before learner design questions.
+
 **Missed-day rule:** carry the lesson forward and use weekend flexibility before optional new work. Missing one three-hour weekday and using all three flex hours can preserve the 21-hour core plan, but actual study that week is then 21 hours, not 24. Missing more time means carrying some work into the next week. Do not manufacture completed hours or require an unplanned marathon to preserve dates.
 
 Stop at the chosen time limit and log unfinished work. If due reviews exceed their budget, replace some new material with reviews; do not mark unattempted reviews successful. The 30-minute busy-day fallback remains available. Recalculate the forecast if actual weekly time or retention differs materially from the plan.
@@ -49,7 +53,7 @@ Node.js remains the provisional runtime for portfolio projects. Select each proj
 
 ## How to practise each DSA problem
 
-Use a bounded independent attempt followed by teaching and reconstruction. Learning a new concept and assessing independent performance are different activities. A wholly unfamiliar concept can receive a short explanation first; label the subsequent practice accordingly. Day 1 retains its guided schedule and null ratings.
+Use a bounded independent attempt followed by teaching and reconstruction once prerequisites are in place. Learning a new concept and assessing independent performance are different activities. Teach unfamiliar prerequisites with a small worked example before the attempt; label subsequent practice and assistance accurately. Day 1 retains its guided schedule and null ratings.
 
 Once a task is suitable for an independent attempt, this is the default allocation inside the existing 90-minute DSA block:
 

@@ -14,7 +14,7 @@ Public notes contain task summaries, code or lab evidence, help used, and a shor
 
 ## Separate teaching from assessment
 
-1. Start with an independent attempt when the task is appropriate for the current topic.
+1. State whether the activity is new-topic learning or assessment of covered material. Teach unfamiliar prerequisites with an explanation and worked example first; start an independent attempt only when the task is appropriate for the learner's current preparation. A brief familiarity check must not become a chain of diagnostic follow-ups before teaching.
 2. Record the attempt before explaining the solution. A neutral request to test or clarify is not the same as giving a strategy.
 3. Teach and practice openly; help is expected during learning.
 4. Label any immediate reproduction of the taught approach as guided practice.
