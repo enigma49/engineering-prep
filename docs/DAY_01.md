@@ -1,12 +1,14 @@
 # Day 1: JavaScript collections and reasoning
 
-**Status: in progress, not completed.** See [the current session](../sessions/2026-10-13-D01.md). Budget: 180 minutes within the 24-hour weekly plan. The learner chose JavaScript during this session. This is guided learning, and Day 1 ratings remain unassessed (`null`).
+**Status: completed as a scoped guided session on 2026-10-13.** See [the session evidence and deferred work](../sessions/2026-10-13-D01.md). The 180-minute figure was the planning budget; actual active time was not measured. The learner chose JavaScript, completed counting exercises and an exit variant, and discussed job lifecycle. Detailed recovery guarantees are deferred to the lab. Day 1 ratings remain unassessed (`null`); D02 is next.
 
 ## Outcomes
 
 By the end, the learner should be able to describe a function's inputs and numeric output, distinguish an array's index from its value, explain what a JavaScript `Set` and `Map` represent, trace repeated values, and test a straightforward implementation against examples. This is the learner's first formal DSA study program: teach unfamiliar concepts before expecting an independent solution. It is a guided session with a small independent exit check.
 
-## Session sequence
+## Planned session sequence
+
+The allocation below is the original plan, not a record of elapsed study time. Actual evidence is in the dated session.
 
 | Time | Activity |
 | --- | --- |

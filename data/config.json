@@ -25,7 +25,7 @@
     "management": "outside_public_repository"
   },
   "reporting_policy": "docs/REPORTING.md",
-  "next_lesson": "D01",
+  "next_lesson": "D02",
   "current_phase": "foundations",
   "prior_practice": {
     "reported_studied_count": 27,

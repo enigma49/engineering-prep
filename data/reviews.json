@@ -5,5 +5,12 @@
     "outcome": "hinted",
     "evidence": "Selected Set for distinct counting, implemented it and traced whole IDs. Independently proposed frequency counting; corrected the first-occurrence initialization after a debugging hint. Revised function passed six tutor-run cases. Learner-designed testing, complexity and delayed recall remain unassessed. See sessions/2026-10-13-D01.md.",
     "assistance": "Neutral output and trace prompts; directional initialization hint and explanation that the old expression produced two; supplied loop-variable declaration syntax. Learner wrote the revised counting expression."
+  },
+  {
+    "item_id": "systems.job_lifecycle",
+    "date": "2026-10-13",
+    "outcome": "learned",
+    "evidence": "Outlined OCR success and failure flow and distinguished pending from ongoing after a neutral prompt. Proposed retries, health checks and a per-job runtime limit. Discussed heartbeat age and late completion, then deferred deeper shutdown and ownership guarantees to the recovery lab. No recovery implementation or independent guarantee was verified.",
+    "assistance": "Guided lifecycle prompts; tutor explained runtime deadline versus heartbeat timeout, timeout uncertainty and a first-valid-result completion policy. Deeper follow-ups were stopped at the learner request; no failure score was assigned."
   }
 ]

@@ -2,7 +2,7 @@
 
 This plan uses NeetCode 150 as the DSA spine and the existing preparation plan for systems, AI, projects, and interviews. It adds practice structure, not another large curriculum.
 
-**Day 1 is in progress, not completed.** The opening distinct-user-count exercise has begun. No score or completion is inferred from a scheduled date. See [Day 1](DAY_01.md), [baseline](BASELINE.md), and [assessment rules](ASSESSMENT.md).
+**Day 1 was completed as a scoped guided session on 2026-10-13. Next lesson: D02.** See the [session evidence](../sessions/2026-10-13-D01.md) for completed practice, assistance and work carried forward. Detailed recovery guarantees remain deferred to the lab; no mastery or actual three-hour duration is inferred. See [Day 1](DAY_01.md), [baseline](BASELINE.md), and [assessment rules](ASSESSMENT.md).
 
 ## Foundations-first starting point
 

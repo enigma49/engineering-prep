@@ -188,7 +188,7 @@ No reviews due. Select new work from the daily plan.
 | dsa.hashmaps | Sets, maps, and frequency counts | Attempted with hints | 2026-10-13 | 2026-10-14 |
 | dsa.window_membership | Time-window membership and invariants | No logged attempt | — | — |
 | dsa.bruteforce | Correct straightforward algorithms | No logged attempt | — | — |
-| systems.job_lifecycle | Durable job lifecycle and recovery | No logged attempt | — | — |
+| systems.job_lifecycle | Durable job lifecycle and recovery | Studied with explanation | 2026-10-13 | 2026-10-14 |
 | systems.ownership | Atomic ownership and stale-worker writes | No logged attempt | — | — |
 | ai.rag_diagnosis | Diagnosing retrieval and generation failures | No logged attempt | — | — |
 | ai.evaluation | Trusted labels, metrics, and regression evaluation | No logged attempt | — | — |
@@ -198,6 +198,7 @@ No reviews due. Select new work from the daily plan.
 
 | Date | ID | Outcome | Evidence | Assistance |
 | --- | --- | --- | --- | --- |
+| 2026-10-13 | systems.job_lifecycle | learned | Outlined OCR success and failure flow and distinguished pending from ongoing after a neutral prompt. Proposed retries, health checks and a per-job runtime limit. Discussed heartbeat age and late completion, then deferred deeper shutdown and ownership guarantees to the recovery lab. No recovery implementation or independent guarantee was verified. | Guided lifecycle prompts; tutor explained runtime deadline versus heartbeat timeout, timeout uncertainty and a first-valid-result completion policy. Deeper follow-ups were stopped at the learner request; no failure score was assigned. |
 | 2026-10-13 | dsa.hashmaps | hinted | Selected Set for distinct counting, implemented it and traced whole IDs. Independently proposed frequency counting; corrected the first-occurrence initialization after a debugging hint. Revised function passed six tutor-run cases. Learner-designed testing, complexity and delayed recall remain unassessed. See sessions/2026-10-13-D01.md. | Neutral output and trace prompts; directional initialization hint and explanation that the old expression produced two; supplied loop-variable declaration syntax. Learner wrote the revised counting expression. |
 
 Review intervals: 1, 3, 7, 14, then 30 days. Intervals are counted from the actual attempt date. An assisted or unsuccessful attempt resets the interval to 1 day. Independent attempts before the scheduled due date preserve the current stage and due date; only due or overdue independent reviews advance the interval.

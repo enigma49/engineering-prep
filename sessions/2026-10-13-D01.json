@@ -1,13 +1,14 @@
 {
   "session_id": "2026-10-13-D01",
   "date": "2026-10-13",
-  "status": "in progress",
+  "status": "completed",
   "planned_minutes": 180,
   "actual_active_minutes": null,
   "lesson_id": "D01",
   "item_ids": [
     "dsa.requirements",
-    "dsa.hashmaps"
+    "dsa.hashmaps",
+    "systems.job_lifecycle"
   ],
   "problem_attempts": [],
   "evidence": [
@@ -21,7 +22,20 @@
     "Independently proposed storing a count by user ID, incrementing existing counts and initializing new IDs at one. Submitted a plain-object implementation; the initial artifact is saved unchanged.",
     "Tutor checks of the frequency attempt: empty input returned an empty object; singleton a returned a count of 2; the mixed example returned a:4, b:3, c:2 instead of a:3, b:2, c:1. A separate strict-mode check raised ReferenceError because the loop variable was undeclared.",
     "Explained that undefined is falsy and the original fallback returns one. After the tutor explained the additional increment and provided loop-variable declaration syntax, changed the fallback to zero and declared const user.",
-    "The learner-authored revised frequency function passed six tutor-run cases in strict mode under the single-lowercase-letter ID contract. This is a correction after assistance, not an independent first-attempt solve. Learner-designed tests, complexity and delayed recall remain pending."
+    "The learner-authored revised frequency function passed six tutor-run cases in strict mode under the single-lowercase-letter ID contract. This is a correction after assistance, not an independent first-attempt solve. Learner-designed tests and delayed recall remain pending.",
+    "Named O(n) linear time without a hint supplying that classification; did not yet give a loop-count justification. The tutor supplied the once-per-entry reasoning and constant-time-access assumption.",
+    "Answered O(n) space because an additional map is used. The tutor explained the tighter O(1) bound for at most 26 letter keys, emphasizing the number of stored entries.",
+    "After that explanation, correctly stated that 1,000 input entries with 40 distinct integer IDs require 40 map entries because keys are unique. This is a guided transfer check, not independent derivation of the general space bound.",
+    "For a background OCR job, proposed pending, failed and completed states, storing extracted text and a hash on success. Exact ordering of durable completion and client-visible success remains to be clarified.",
+    "After a neutral comparison of queued and actively processed jobs, added ongoing and correctly distinguished pending waiting work from ongoing active work.",
+    "For a worker crash, proposed checking health every five seconds, timing out an unchanged status, deleting the ongoing task and related records, reporting an error, and starting fresh records on user retry. A separate liveness signal, retained recovery state and safe handling of a worker that resumes have not been established.",
+    "Proposed a process-specific maximum runtime, such as five minutes for an OCR operation expected to take two minutes. This is a legitimate duration policy; it does not by itself establish that a timed-out worker has stopped. Direct heartbeat-age comparison was not demonstrated.",
+    "Allowed a late result from the original worker and proposed investigating latency and adjusting timeouts. The tutor introduced a first-valid-result-wins policy to distinguish result acceptance from current-worker ownership; neither policy enforcement mechanism was demonstrated.",
+    "Proposed killing the previous process and deleting related records before starting a replacement, asserting this prevents simultaneous work. This can be sufficient only under a shutdown guarantee that prevents the old attempt from publishing; that guarantee was not specified or verified.",
+    "The systems discussion was stopped at the learner request for a more bounded scope. Further termination, in-flight write and ownership follow-ups are deferred to the recovery lab, not graded as a failed or completed exercise.",
+    "For the exactly-once exit variant, independently proposed a frequency table followed by counting keys with frequency one and submitted matching JavaScript using Object.entries. No additional strategy, code or API hint was supplied for this variant; it follows same-session frequency-count teaching and does not establish delayed retention.",
+    "The exactly-once implementation passed seven tutor-run cases in strict mode: empty, singleton, all repeated, all distinct, mixed frequencies, multiple repeated IDs with no singles, and a changed mixed input.",
+    "Selected two validation cases and gave correct expected outputs: a,a,a,b,c -> 2 and ac,ab,aa,ba,ca -> 5. Both were verified against the saved code. The second extends the original single-letter contract; it does not establish support for every arbitrary string ID. Empty/all-repeated cases were tutor-run, not learner-designed."
   ],
   "ratings": [],
   "assistance": [
@@ -44,12 +58,43 @@
       "level": "directional hint",
       "scope": "JavaScript syntax only",
       "details": "Supplied for (const user of users) to declare the loop variable. This syntax help did not supply the counting algorithm; the learner incorporated it into their revision."
+    },
+    {
+      "level": "supplied approach",
+      "scope": "complexity reasoning",
+      "details": "Tutor explained once-per-entry time reasoning and the fixed-alphabet storage bound, then checked a changed integer-ID example. Learner independently named linear time before the explanation and correctly counted 40 stored entries afterward. General storage O(k), worst-case O(n), is a teaching conclusion rather than a learner-derived result."
+    },
+    {
+      "level": "neutral prompt",
+      "scope": "job lifecycle states",
+      "details": "Asked for stored status labels and transitions, then contrasted one waiting job and one actively processed job without supplying status names."
+    },
+    {
+      "level": "supplied approach",
+      "scope": "heartbeat semantics",
+      "details": "Explained that ongoing can stay unchanged during healthy long-running work. Introduced a separate periodically refreshed heartbeat timestamp and explained that an expired timeout indicates suspected unresponsiveness, not proof the worker stopped. Retain the job record for recovery; use a numerical heartbeat-age example as a guided check."
+    },
+    {
+      "level": "supplied approach",
+      "scope": "runtime and completion policies",
+      "details": "Tutor distinguished total runtime limits from heartbeat silence and explained that timing out is not proof of termination. Tutor introduced a first-valid-result-wins requirement. Learner proposed shutdown-before-retry; the specific guarantee remains unverified. No further systems question is planned in D01."
+    },
+    {
+      "level": "none",
+      "scope": "exactly-once exit variant",
+      "details": "Only the requirement and one input/output example were provided before the approach and implementation. No additional algorithm, implementation or language hint was supplied for this variant. Prior same-session frequency-count teaching remains relevant context."
+    },
+    {
+      "level": "neutral prompt",
+      "scope": "exit validation",
+      "details": "Asked for two test inputs and expected outputs without suggesting which cases to use. Learner selected both; tutor ran them afterward."
     }
   ],
   "artifacts": [
     "practice/dsa/day-01-count-distinct-users.js",
     "practice/dsa/day-01-user-frequency-initial.js",
-    "practice/dsa/day-01-user-frequency-revised.js"
+    "practice/dsa/day-01-user-frequency-revised.js",
+    "practice/dsa/day-01-count-single-visits.js"
   ],
   "review_events": [
     {
@@ -58,8 +103,50 @@
       "outcome": "hinted",
       "next_review": "2026-10-14",
       "scope": "Set distinct counting and plain-object frequency counting; tutor-tested correction after assistance, with independent testing and delayed recall still pending."
+    },
+    {
+      "item_id": "systems.job_lifecycle",
+      "date": "2026-10-13",
+      "outcome": "learned",
+      "next_review": "2026-10-14",
+      "scope": "Brief recall of states and timeout meanings discussed; detailed termination and ownership mechanisms remain deferred to the recovery lab."
     }
   ],
-  "deferred_items": [],
-  "next_action": "Introduce time-complexity reasoning through how the number of counting updates changes when the input length doubles."
+  "deferred_items": [
+    "Detailed recovery guarantees: confirmed shutdown, late writes, retained records and atomic ownership/completion. Return in the dedicated recovery lab; do not reopen the same follow-up chain in D01.",
+    "Independent boundary-test selection, general correctness and complexity justification, delayed recall, and JavaScript Map-specific API use remain unassessed or incomplete; cover as needed in subsequent lessons."
+  ],
+  "next_action": "Begin D02 with due counting/lifecycle recall, then operation counts for single and nested loops and the first AI exercise separating retrieval quality from answer quality. Keep advanced recovery details in the dedicated lab.",
+  "completion_scope": "Guided D01 foundation exercises and bounded systems discussion completed; deferred guarantees and unassessed dimensions remain explicit. No claim of three actual study hours or topic mastery.",
+  "validation_cases": [
+    {
+      "exercise": "exactly-once exit variant",
+      "source": "learner",
+      "input": [
+        "a",
+        "a",
+        "a",
+        "b",
+        "c"
+      ],
+      "expected": 2,
+      "actual": 2,
+      "within_original_contract": true
+    },
+    {
+      "exercise": "exactly-once exit variant",
+      "source": "learner",
+      "input": [
+        "ac",
+        "ab",
+        "aa",
+        "ba",
+        "ca"
+      ],
+      "expected": 5,
+      "actual": 5,
+      "within_original_contract": false,
+      "note": "Additional case using multi-character IDs; passed for these values only."
+    }
+  ]
 }
