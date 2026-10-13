@@ -80,6 +80,8 @@ Saved synthetic model outputs can make an initial offline harness cheap and dete
 
 Begin this stage when the study routine is sustainable and the labs' acceptance criteria are met. In the 18-week planning model, reserve **6 hours per week in weeks 9–16** for one showcase project, then use project blocks in weeks 17–18 for measurements, documentation, and polish. The overall forecast is 16–20 weeks; these windows can move when the evidence warrants it. Project hours come from the existing weekly budget, replacing some new-topic systems/AI work and other planned focus blocks rather than adding another shift. Preserve due reviews and at least two substantive DSA sessions per week. Finish one showcase project before considering another.
 
+The learner has also proposed a [Queue and Worker Playground](QUEUE_PLAYGROUND.md): extend Lab 1 with UI controls, a separate Autocannon load runner, real queue/worker telemetry and reproducible overload/scaling/failure experiments. This is an additional candidate for the same single showcase slot, not an extra mandatory build. It remains proposed and unimplemented. Keep the AI evaluation lab whichever showcase is selected. The brief defines measurements and completion criteria, including the distinction between accepted HTTP requests and completed jobs.
+
 | Stage | Reliable LLM gateway | Evaluated document assistant |
 | --- | --- | --- |
 | Small working slice | One real provider, a clearly labeled test adapter, typed requests, and observable failure handling. | Ingest public documents, retrieve evidence, and answer with citations. |
